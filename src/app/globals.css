@@ -29,3 +29,49 @@ body {
   display: flex !important;
   justify-content: center;
 }
+
+/* PRICING CSS CODE HERE */
+.pricing-gradiant:hover {
+  box-shadow: 0px 32px 80px 0px #1a40891f;
+  background: linear-gradient(180deg, #0071bc 0%, #58b9f9 100%);
+}
+
+.pricing-gradiant:hover .price_heading {
+  color: #fefefe;
+}
+
+.pricing-gradiant:hover .right_icon path {
+  fill: #fefefe;
+}
+
+.pricing-gradiant:hover .pricing_option {
+  color: #fefefe;
+}
+
+.pricing-gradiant:hover .cross_icon path {
+  fill: white;
+}
+
+/* NEWS INSIGHTS CSS CODE HERE */
+.news_card:hover {
+  background: linear-gradient(180deg, #58b9f9 0%, #0071bc 100%);
+  box-shadow: 0px 16px 48px 0px #06233f08;
+  box-shadow: 0px -16px 48px 0px #06233f08;
+}
+
+.news_card:hover .read_arrow path {
+  fill: #fefefe;
+}
+
+.news_card:hover .news_heading {
+  color: #fefefe;
+}
+
+.news_card:hover .news_pera {
+  color: #fefefe;
+}
+
+.news_card:hover .news_read {
+  color: #fefefe;
+  border-bottom: 1.5px solid #fefefe !important;
+}

@@ -6,6 +6,8 @@ import Testinomial from "../app/components/stratman/Testinomial";
 import Dashboard from "../app/components/stratman/Dashboard";
 import SearchMode from "../app/components/stratman/SearchMode";
 import Copilot from "../app/components/stratman/Copilot";
+import Pricing from "../app/components/stratman/Pricing";
+import NewsInsights from "../app/components/stratman/NewsInsights";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <SearchMode />
       <Copilot />
       <Testinomial />
+      <Pricing />
+      <NewsInsights />
     </>
   );
 }
