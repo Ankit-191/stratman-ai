@@ -9,7 +9,7 @@ import Link from "next/link";
 function Footer() {
   return (
     <footer>
-      <div className="max-w-[1164px] px-3 mx-auto mt-12 md:mt-[60px] lg:mt-20">
+      <div className="xl:max-w-[1164px] px-4 sm:px-5 xl:px-3 mx-auto mt-12 md:mt-[60px] lg:mt-20">
         <div className="flex justify-between flex-wrap gap-4 xl:gap-0 lg:flex-nowrap">
           <div className="flex flex-col">
             <Link href="/">
@@ -20,14 +20,14 @@ function Footer() {
                 alt="footerlogo"
               />
             </Link>
-            <p className="pt-4 text-base text-grey max-w-[334px]">
+            <p className="pt-4 text-base text-light-black sm:max-w-[470px] lg:max-w-[334px] opacity-70">
               Stratman AI is dedicated to empowering investors with advanced
               AI-driven tools and insights. Our platform provide financial data.
             </p>
-            <p className="pt-6 font-anek font-semibold text-base text-darkblue">
+            <p className="pt-6 font-anek font-semibold text-base text-dark-black">
               Follow Us
             </p>
-            <div className="flex pt-6 gap-3">
+            <div className="flex pt-4 gap-3">
               <a
                 className="hover:scale-110 duration-300"
                 href="https://www.linkedin.com/ "
@@ -60,12 +60,12 @@ function Footer() {
           </div>
           <div className="flex flex-wrap gap-7 mt-6 lg:mt-0 xl:gap-[55px] items-start">
             <ul className="ps-0">
-              <p className="text-black pb-1 font-anek font-semibold text-base">
+              <p className="text-light-black pb-1 font-anek font-semibold text-base">
                 Company
               </p>
               <li className="pt-3">
                 <a
-                  className="text-grey hover:text-blue duration-300 text-base"
+                  className="text-light-black hover:text-blue duration-300 text-base opacity-70"
                   href="#home"
                 >
                   Home
@@ -73,79 +73,79 @@ function Footer() {
               </li>
               <li className="pt-3">
                 <a
-                  className="text-grey hover:text-blue duration-300 text-base"
-                  href="#home"
+                  className="text-light-black hover:text-blue duration-300 text-base opacity-70"
+                  href="#features"
                 >
                   Features
                 </a>
               </li>
               <li className="pt-3">
                 <a
-                  className="text-grey hover:text-blue duration-300 text-base"
-                  href="#home"
+                  className="text-light-black hover:text-blue duration-300 text-base opacity-70"
+                  href="#pricing"
                 >
                   Pricing
                 </a>
               </li>
               <li className="pt-3">
                 <a
-                  className="text-grey hover:text-blue duration-300 text-base"
-                  href="#home"
+                  className="text-light-black hover:text-blue duration-300 text-base opacity-70"
+                  href="#blogs"
                 >
                   Blogs
                 </a>
               </li>
             </ul>
             <ul className="ps-0">
-              <p className="text-black pb-1 font-anek font-semibold text-base">
+              <p className="text-light-black pb-1 font-anek font-semibold text-base">
                 Information
               </p>
               <li className="pt-3">
                 <a
-                  className="text-grey hover:text-blue duration-300 text-base"
-                  href="#home"
+                  className="text-light-black opacity-70 hover:text-blue duration-300 text-base"
+                  href="#terms-conditions"
                 >
                   Terms & Conditions
                 </a>
               </li>
               <li className="pt-3">
                 <a
-                  className="text-grey hover:text-blue duration-300 text-base"
-                  href="#home"
+                  className="text-light-black opacity-70 hover:text-blue duration-300 text-base"
+                  href="#privacy-policy"
                 >
                   Privacy Policy
                 </a>
               </li>
             </ul>
             <ul className="ps-0">
-              <p className="text-black pb-1 font-anek font-semibold text-base">
+              <p className="text-light-black pb-1 font-anek font-semibold text-base">
                 Examples
               </p>
               <li className="pt-3">
                 <a
-                  className="text-grey hover:text-blue duration-300 text-base"
-                  href="#home"
+                  className="text-light-black opacity-70 hover:text-blue duration-300 text-base"
+                  href="#news"
                 >
                   News
                 </a>
               </li>
               <li className="pt-3">
                 <a
-                  className="text-grey hover:text-blue duration-300 text-base"
-                  href="#home"
+                  className="text-light-black opacity-70 hover:text-blue duration-300 text-base"
+                  href="#testimonials"
                 >
                   Testimonials
                 </a>
               </li>
             </ul>
             <ul className="ps-0">
-              <p className="text-black pb-1 mb-1 font-anek font-semibold text-base">
+              <p className="text-light-black pb-1 mb-1 font-anek font-semibold text-base">
                 Contacts
               </p>
               <li className="pt-3">
                 <a
-                  className="text-grey flex hover:text-blue duration-300 text-base"
-                  href="#home"
+                  className="text-light-black opacity-70 flex hover:text-blue duration-300 text-base"
+                  href="tel:+1234567890"
                 >
                   <Image
                     className="me-2"
@@ -159,8 +159,8 @@ function Footer() {
               </li>
               <li className="pt-3 mt-[2px]">
                 <a
-                  className="text-grey flex hover:text-blue duration-300 text-base"
-                  href="#home"
+                  className="text-light-black opacity-70 flex hover:text-blue duration-300 text-base"
+                  href="mailto:123@Stratman AI.Com"
                 >
                   <Image
                     className="me-2"
@@ -173,10 +173,7 @@ function Footer() {
                 </a>
               </li>
               <li className="pt-3 mt-[2px]">
-                <a
-                  className="text-grey flex hover:text-blue duration-300 text-base"
-                  href="#home"
-                >
+                <span className="text-light-black opacity-70 flex hover:text-blue duration-300 text-base">
                   <Image
                     className="me-2"
                     width={20}
@@ -185,14 +182,14 @@ function Footer() {
                     alt="location"
                   />
                   123, Dubai(UAE)
-                </a>
+                </span>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <span className="mt-10 h-[1px] flex w-full bg-[#b2b2b2]"></span>
-      <p className="text-base text-grey text-center pt-6 pb-5">
+      <p className="text-base text-light-black opacity-70 text-center pt-6 pb-5">
         © 2024 Stratman AI. All Rights Reserved
       </p>
     </footer>
