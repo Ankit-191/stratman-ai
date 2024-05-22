@@ -5,14 +5,14 @@ import CustomTags from "../common/startman/custom-ui/CustomTags";
 const NewsInsights = () => {
   return (
     <>
-      <div className='bg-[url("/stratman/images/png/bgImage.png")] bg-no-repeat sm:py-[64px] py-12 md:py-[80px] lg:py-[100px] rounded-[40px]'>
+      <div className="bg-blue-image bg-cover bg-center mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] py-[50px] sm:py-[80px] lg:py-[100px]">
         <div className="max-w-[1164px] px-3 mx-auto">
           <div className="text-center">
             <CustomTags
               title="News & Insights"
               parentClassName="inline-flex px-[27.5px]"
               svgColor="#0071BC"
-            />
+            />  
           </div>
           <h2 className=" 'font-anekTelegu font-semibold mt-5 text-white text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[120%]">
             Our <span className="font-light">NEWS &</span>

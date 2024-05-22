@@ -13,7 +13,7 @@ import CustomTags from "../common/startman/custom-ui/CustomTags";
 
 const Testinomial = () => {
   return (
-    <div className='bg-[url("/stratman/images/png/bgImage.png")] bg-no-repeat pt-6 sm:pt-8 md:pt-11 pb-20 sm:pb-[100px] lg:pt-[100px] rounded-[40px]'>
+    <div className="bg-blue-image bg-cover bg-center mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] py-[50px] sm:py-[80px] pb-[90px] lg:py-[100px]">
       <div className="container max-w-[1164px] mx-auto px-3 relative">
         <div className="text-center">
           <CustomTags
