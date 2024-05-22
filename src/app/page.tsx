@@ -8,6 +8,8 @@ import SearchMode from "../app/components/stratman/SearchMode";
 import Copilot from "../app/components/stratman/Copilot";
 import Pricing from "../app/components/stratman/Pricing";
 import NewsInsights from "../app/components/stratman/NewsInsights";
+import Discover from "../app/components/stratman/Discover";
+import Footer from "../app/components/common/Footer";
 
 export default function Home() {
   return (
@@ -22,6 +24,8 @@ export default function Home() {
       <Testinomial />
       <Pricing />
       <NewsInsights />
+      <Discover />
+      <Footer />
     </>
   );
 }
