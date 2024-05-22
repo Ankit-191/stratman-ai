@@ -6,6 +6,8 @@ import Testinomial from "../app/components/stratman/Testinomial";
 import Dashboard from "../app/components/stratman/Dashboard";
 import SearchMode from "../app/components/stratman/SearchMode";
 import Copilot from "../app/components/stratman/Copilot";
+import Discover from "../app/components/stratman/Discover";
+import Footer from "../app/components/common/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <SearchMode />
       <Copilot />
       <Testinomial />
+      <Discover />
+      <Footer />
     </>
   );
 }
