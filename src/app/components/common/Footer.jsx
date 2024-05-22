@@ -28,34 +28,34 @@ function Footer() {
               Follow Us
             </p>
             <div className="flex pt-4 gap-3">
-              <a
+              <Link
                 className="hover:scale-110 duration-300"
                 href="https://www.linkedin.com/ "
                 target="_blank"
               >
                 <LinkedIn />
-              </a>
-              <a
+              </Link>
+              <Link
                 className="hover:scale-110 duration-300"
                 href="https://www.instagram.com/ "
                 target="_blank"
               >
                 <Instagram />
-              </a>
-              <a
+              </Link>
+              <Link
                 className="hover:scale-110 duration-300"
                 href="https://www.linkedin.com/ "
                 target="_blank"
               >
                 <Facebook />
-              </a>
-              <a
+              </Link>
+              <Link
                 className="hover:scale-110 duration-300"
                 href="https://x.com/ "
                 target="_blank"
               >
                 <Twitter />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="flex flex-wrap gap-7 mt-6 lg:mt-0 xl:gap-[55px] items-start">
@@ -64,36 +64,36 @@ function Footer() {
                 Company
               </p>
               <li className="pt-3">
-                <a
+                <Link
                   className="text-light-black hover:text-blue duration-300 text-base opacity-70"
                   href="#home"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="pt-3">
-                <a
+                <Link
                   className="text-light-black hover:text-blue duration-300 text-base opacity-70"
                   href="#features"
                 >
                   Features
-                </a>
+                </Link>
               </li>
               <li className="pt-3">
-                <a
+                <Link
                   className="text-light-black hover:text-blue duration-300 text-base opacity-70"
                   href="#pricing"
                 >
                   Pricing
-                </a>
+                </Link>
               </li>
               <li className="pt-3">
-                <a
+                <Link
                   className="text-light-black hover:text-blue duration-300 text-base opacity-70"
                   href="#blogs"
                 >
                   Blogs
-                </a>
+                </Link>
               </li>
             </ul>
             <ul className="ps-0">
@@ -101,20 +101,20 @@ function Footer() {
                 Information
               </p>
               <li className="pt-3">
-                <a
+                <Link
                   className="text-light-black opacity-70 hover:text-blue duration-300 text-base"
                   href="#terms-conditions"
                 >
                   Terms & Conditions
-                </a>
+                </Link>
               </li>
               <li className="pt-3">
-                <a
+                <Link
                   className="text-light-black opacity-70 hover:text-blue duration-300 text-base"
                   href="#privacy-policy"
                 >
                   Privacy Policy
-                </a>
+                </Link>
               </li>
             </ul>
             <ul className="ps-0">
@@ -122,20 +122,20 @@ function Footer() {
                 Examples
               </p>
               <li className="pt-3">
-                <a
+                <Link
                   className="text-light-black opacity-70 hover:text-blue duration-300 text-base"
                   href="#news"
                 >
                   News
-                </a>
+                </Link>
               </li>
               <li className="pt-3">
-                <a
+                <Link
                   className="text-light-black opacity-70 hover:text-blue duration-300 text-base"
                   href="#testimonials"
                 >
                   Testimonials
-                </a>
+                </Link>
               </li>
             </ul>
             <ul className="ps-0">
@@ -143,7 +143,7 @@ function Footer() {
                 Contacts
               </p>
               <li className="pt-3">
-                <a
+                <Link
                   className="text-light-black opacity-70 flex hover:text-blue duration-300 text-base"
                   href="tel:+1234567890"
                 >
@@ -155,10 +155,10 @@ function Footer() {
                     alt="call-to"
                   />
                   +1234567890
-                </a>
+                </Link>
               </li>
               <li className="pt-3 mt-[2px]">
-                <a
+                <Link
                   className="text-light-black opacity-70 flex hover:text-blue duration-300 text-base"
                   href="mailto:123@Stratman AI.Com"
                 >
@@ -170,7 +170,7 @@ function Footer() {
                     alt="mail-to"
                   />
                   123@Stratman AI.Com
-                </a>
+                </Link>
               </li>
               <li className="pt-3 mt-[2px]">
                 <span className="text-light-black opacity-70 flex hover:text-blue duration-300 text-base">

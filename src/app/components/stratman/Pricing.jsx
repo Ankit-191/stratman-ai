@@ -3,7 +3,7 @@ import CustomTags from "../common/startman/custom-ui/CustomTags";
 import { CrossIcon, RightIcon } from "../common/Icons";
 const Pricing = () => {
   return (
-    <div className="max-w-[1164px] xl:py-[140px] lg:py-[100px] md:py-20 sm:py-16 py-12 px-3 mx-auto">
+    <div className="max-w-[1164px] xl:py-[140px] lg:py-[100px] md:py-20 sm:py-16 py-12 px-3 mx-auto" id="pricing">
       <div className="text-center">
         <CustomTags
           title="PRICING"

@@ -33,6 +33,9 @@ const config: Config = {
         "blue-linear-gradient":
           "linear-gradient(90deg, #58B9F9 1.82%, #0071BC 104.09%)",
       },
+      boxShadow: {
+        "inset-white": "inset 0 70px 0 #FEFEFE",
+      },
     },
   },
   plugins: [],

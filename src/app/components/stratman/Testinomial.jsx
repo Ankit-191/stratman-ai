@@ -13,7 +13,7 @@ import CustomTags from "../common/startman/custom-ui/CustomTags";
 
 const Testinomial = () => {
   return (
-    <div className="bg-blue-image bg-cover bg-center mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] py-[50px] sm:py-[80px] pb-[90px] lg:py-[100px]">
+    <div className="bg-blue-image bg-cover bg-center mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] py-[50px] sm:py-[80px] pb-[90px] lg:py-[100px]" id="testimonials">
       <div className="container max-w-[1164px] mx-auto px-3 relative">
         <div className="text-center">
           <CustomTags
@@ -61,7 +61,7 @@ const Testinomial = () => {
           {organizationData.map((data, i) => (
             <SwiperSlide key={i}>
               <div className="bg-dark-blue md:max-w-[364px] rounded-[14px] pb-0 p-3 sm:p-6 swiper-card min-h-[212px] sm:min-h-[252px] h-full">
-                <p className="sm:text-base text-sm text-lightBlack border-b-[2px] border-[#BBD5E7] pb-2 sm:pb-4 leading-[150%] min-h-[120px] sm:min-h-[137px] testimonials_slider">
+                <p className="sm:text-base text-sm text-light-black border-b-[2px] border-[#BBD5E7] pb-2 sm:pb-4 leading-[150%] min-h-[120px] sm:min-h-[137px] testimonials_slider">
                   {data.Para}
                 </p>
                 <div className="flex items-center pt-4">

@@ -2,10 +2,11 @@ import React from "react";
 import Image from "next/image";
 import { ReadMoreArrow } from "../common/Icons";
 import CustomTags from "../common/startman/custom-ui/CustomTags";
+import Link from "next/link";
 const NewsInsights = () => {
   return (
     <>
-      <div className="bg-blue-image bg-cover bg-center mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] py-[50px] sm:py-[80px] lg:py-[100px]">
+      <div className="bg-blue-image bg-cover bg-center mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] py-[50px] sm:py-[80px] lg:py-[100px]" id="news">
         <div className="max-w-[1164px] px-3 mx-auto">
           <div className="text-center">
             <CustomTags
@@ -34,18 +35,18 @@ const NewsInsights = () => {
               <h6 className="news_heading font-semibold text-blue pt-5 font-anek text-xl lg:text-2xl">
                 Analytics AI: Why You Need Stratman AI in 2024
               </h6>
-              <p className="sm:pt-2 news_pera text-sm sm:text-base text-lightBlack max-w-[518px]">
+              <p className="sm:pt-2 news_pera text-sm sm:text-base text-light-black max-w-[518px]">
                 Stratman AI uses the newest artificial intelligence (AI) and
                 machine learning (ML) technologies to analyze cryptocurrency
                 markets.
               </p>
-              <a
-                className="border-darkblue gap-[12px] flex items-center news_read border-b-[1.5px] text-darkBlue pt-1 sm:pt-4"
-                href=""
+              <Link
+                className="border-dark-black gap-[12px] flex items-center news_read border-b-[1.5px] text-dark-black pt-1 sm:pt-4"
+                href="#"
               >
                 Read More
                 <ReadMoreArrow />
-              </a>
+              </Link>
             </div>
             <div className="flex bg-dark-blue max-w-[558px] duration-200 flex-col items-start news_card p-3 lg:p-5 rounded-[12px] flex-column">
               <Image
@@ -57,17 +58,17 @@ const NewsInsights = () => {
               <h6 className="news_heading font-semibold text-blue pt-5 font-anek text-xl lg:text-2xl">
                 AI Financial Market: Stratman AI Leads the Way
               </h6>
-              <p className="sm:pt-2 news_pera text-sm sm:text-base text-lightBlack max-w-[518px]">
-                In the current 2024 financial markets, it&apos;s more important than
-                ever to have accurate forecasting.
+              <p className="sm:pt-2 news_pera text-sm sm:text-base text-light-black max-w-[518px]">
+                In the current 2024 financial markets, it&apos;s more important
+                than ever to have accurate forecasting.
               </p>
-              <a
-                className="border-darkblue flex items-center gap-4 news_read border-b-[1.5px] text-darkBlue pt-1 sm:pt-4"
+              <Link
+                className="border-dark-black flex items-center gap-4 news_read border-b-[1.5px] text-dark-black pt-1 sm:pt-4"
                 href="#"
               >
                 Read More
                 <ReadMoreArrow />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@
 
 body {
   font-family: "Open Sans", sans-serif !important;
+  scroll-behavior: smooth !important;
 }
 
 /* SLIDER CSS START HERE */

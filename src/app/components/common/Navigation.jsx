@@ -44,8 +44,8 @@ export default function Navigation() {
               return (
                 <li key={index}>
                   <Link
-                    href="/"
-                    onClick={() => setHandleNav(!handleNav)}
+                    href={obj.href}
+                    onClick={() => setHandleNav(false)}
                     className="text-base text-light-white hover:text-blue transition-all duration-300 ease-in-out"
                   >
                     {obj.title}

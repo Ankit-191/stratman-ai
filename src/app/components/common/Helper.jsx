@@ -10,18 +10,23 @@ import { SemiCollon } from "./Icons";
 
 export const NavigationList = [
   {
+    href: "#home",
     title: "Home",
   },
   {
+    href: "#feature",
     title: "Feature",
   },
   {
+    href: "#news",
     title: "News",
   },
   {
+    href: "#pricing",
     title: "Pricing",
   },
   {
+    href: "#testimonials",
     title: "Testimonials",
   },
 ];
