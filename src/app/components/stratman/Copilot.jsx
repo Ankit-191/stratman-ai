@@ -44,7 +44,7 @@ const Copilot = () => {
           <Content
             title="Copilot"
             heading="Copilot for fundamental data"
-            description="The Fundamentals copilot is designed for users to ask questions about fundamentals for a company. This copilot utilizes LLM's with our fundamentals data to provide comprehensive answers to natural language questions ( i.e: 'Does Nvidia have a positive earnings projection?'), and also comes with a special hotkeys feature. Hotkeys can access specialized data such as SEC 10-K filings, insider trading reports, analyst projections, and more, all with a ticker and a hotkey like such: 'tsla r' provides a summary of Tesla's risk factors section of their most recent 10-K."
+            description="The Fundamentals copilot is designed for users to ask questions about fundamentals for a company. This copilot utilizes LLM &apos;s with our fundamentals data to provide comprehensive answers to natural language questions ( i.e: &apos;Does Nvidia have a positive earnings projection?&apos;), and also comes with a special hotkeys feature. Hotkeys can access specialized data such as SEC 10-K filings, insider trading reports, analyst projections, and more, all with a ticker and a hotkey like such: &apos;tsla r&apos; provides a summary of Tesla&apos;s risk factors section of their most recent 10-K."
           />
         </div>
       </div>

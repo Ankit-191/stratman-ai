@@ -25,7 +25,7 @@ const Dashboard = () => {
                 descriptionClass="text-light-white"
                 title="Dashboard"
                 heading="Analysis Dashboard"
-                description="This section is designed to view custom charts with access to nearly 100 metrics for a given stock ticker. Just type in the ticker you'd like to see, and select up to 3 metrics to view the charts, with historical data up to 30 years. Great way to gain fast insights about a stock."
+                description="This section is designed to view custom charts with access to nearly 100 metrics for a given stock ticker. Just type in the ticker you&apos;d like to see, and select up to 3 metrics to view the charts, with historical data up to 30 years. Great way to gain fast insights about a stock."
               />
             </div>
           </div>
