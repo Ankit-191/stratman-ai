@@ -7,7 +7,7 @@ const Trends = () => {
   return (
     <>
       <div className="max-w-[1164px] mx-auto px-3">
-        <div className="py-[50px] md:py-[100px] text-center lg:text-start w-full md:w-9/12 lg:w-auto mx-auto">
+        <div className="py-[50px] sm:py-[80px] lg:pt-[160px] lg:pb-[100px] text-center lg:text-start w-full md:w-9/12 lg:w-auto mx-auto">
           <CustomTags
             title="features"
             parentClassName="inline-flex px-[27.5px]"
@@ -23,7 +23,7 @@ const Trends = () => {
             and access to SEC filings.
           </p>
         </div>
-        <div className="flex flex-wrap justify-center lg:justify-between items-center py-[50px] lg:py-[100px]">
+        <div className="flex flex-wrap justify-center lg:justify-between items-center">
           <div className="w-full md:w-9/12 lg:w-6/12 sm:px-3 text-center lg:text-start">
             <div className="bg-light-blue rounded-[14px] pe-5 ps-[5px] sm:pe-[31px] pb-5 sm:pb-[27px] inline-block">
               <Image

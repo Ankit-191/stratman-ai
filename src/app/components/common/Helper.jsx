@@ -41,7 +41,6 @@ export const CustomersList = [
 ];
 
 //  Organization Data
-
 export const organizationData = [
   {
     Para: "Stratman AI is a generative AI tool that will become the most powerful equity analyst ever. 'The most intuitive platform I've ever seen for tracking business fundamentals.'",
@@ -70,5 +69,19 @@ export const organizationData = [
     Profession: "Dealing Maven",
     Collen: <SemiCollon />,
     Avator: kosanamAvator,
+  },
+];
+export const CopilotList = [
+  {
+    title: "Fundamentals",
+  },
+  {
+    title: "Search",
+  },
+  {
+    title: "Trends",
+  },
+  {
+    title: "Technicals",
   },
 ];
