@@ -8,10 +8,29 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        anek: ["'Anek Telugu', sans-serif"],
+      },
+      colors: {
+        "light-white": "#FEFEFE",
+        blue: "#0071BC",
+        "light-black": "#0A0A0A",
+        "light-blue": "#F1F1F1",
+        "dark-blue": "#CFECFF",
+        gray: "#F1F1F1",
+        "light-gray": "rgba(254, 254, 254, 0.15)",
+      },
+      fontSize: {
+        "6xl": "52px",
+        "7xl": "80px",
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "hero-image":
+          "url('../../public/stratman/images/webp/hero-bg-image.webp')",
+        "blue-image":
+          "url('../../public/stratman/images/png/background-blue-image.png')",
+        "blue-linear-gradient":
+          "linear-gradient(90deg, #58B9F9 1.82%, #0071BC 104.09%)",
       },
     },
   },
