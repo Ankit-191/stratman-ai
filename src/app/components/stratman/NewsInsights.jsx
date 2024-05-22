@@ -6,7 +6,10 @@ import Link from "next/link";
 const NewsInsights = () => {
   return (
     <>
-      <div className="bg-blue-image bg-cover bg-center mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] py-[50px] sm:py-[80px] lg:py-[100px]" id="news">
+      <div
+        className="bg-blue-image bg-cover bg-center mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] py-[50px] sm:py-[80px] lg:py-[100px]"
+        id="news"
+      >
         <div className="max-w-[1164px] px-3 mx-auto">
           <div className="text-center">
             <CustomTags
@@ -24,8 +27,8 @@ const NewsInsights = () => {
             Stay informed and ahead of the curve with the latest trends, tips,
             and insights in video ad creation and social media marketing.
           </p>
-          <div className="flex md:flex-row flex-col items-center gap-6 sm:mt-4 lg:mt-12 pt-3">
-            <div className="flex bg-dark-blue max-w-[558px] duration-200 flex-col items-start news_card p-3 lg:p-5 rounded-[12px] flex-column">
+          <div className="flex md:flex-row flex-col items-center gap-4 lg:gap-6 sm:mt-4 lg:mt-12 pt-3">
+            <div className="flex bg-dark-blue max-w-[558px] duration-200 md:min-h-[428px] lg:min-h-[490px] xl:h-auto flex-col items-start news_card p-3 lg:p-5 rounded-[12px] flex-column">
               <Image
                 width={528}
                 height={296}
@@ -48,7 +51,7 @@ const NewsInsights = () => {
                 <ReadMoreArrow />
               </Link>
             </div>
-            <div className="flex bg-dark-blue max-w-[558px] duration-200 flex-col items-start news_card p-3 lg:p-5 rounded-[12px] flex-column">
+            <div className="flex bg-dark-blue max-w-[558px] duration-200 md:min-h-[428px] lg:min-h-[490px] xl:h-auto flex-col items-start news_card p-3 lg:p-5 rounded-[12px] flex-column">
               <Image
                 width={528}
                 height={296}
