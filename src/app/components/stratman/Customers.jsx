@@ -4,14 +4,14 @@ import { CustomersList } from "../common/Helper";
 const Customers = () => {
   return (
     <>
-      <div className="container max-w-[1164px] mx-auto py-12 sm:py-[60px] px-3">
+      <div className="container max-w-[1164px] mx-auto pt-[50px] sm:pt-[80px] lg:pt-[60px] px-3">
         <div className="flex flex-wrap justify-between px-3 xl:px-9 items-center">
           {CustomersList.map((obj, index) => {
             return (
               <div
                 key={index}
                 className={`w-6/12 md:w-auto flex justify-center md:justify-start ${
-                  index === 2 ? "mt-8" : index === 3 ? "mt-8" : ""
+                  index === 2 ? "mt-8 md:mt-0" : index === 3 ? "mt-8 md:mt-0" : ""
                 }`}
               >
                 <Image

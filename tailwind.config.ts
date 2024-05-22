@@ -19,6 +19,7 @@ const config: Config = {
         "dark-blue": "#CFECFF",
         gray: "#F1F1F1",
         "light-gray": "rgba(254, 254, 254, 0.15)",
+        "dark-black": "#00192A",
       },
       fontSize: {
         "6xl": "52px",

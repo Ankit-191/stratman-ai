@@ -33,3 +33,17 @@ export const CustomersList = [
     image: cfi,
   },
 ];
+export const CopilotList = [
+  {
+    title: "Fundamentals",
+  },
+  {
+    title: "Search",
+  },
+  {
+    title: "Trends",
+  },
+  {
+    title: "Technicals",
+  },
+];
