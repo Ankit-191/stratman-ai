@@ -13,7 +13,7 @@ const ChartAanalysis = () => {
           <Content
             title="chart analysis"
             heading="Analyzing Charts for Key Insights"
-            description="Use the Technicals copilot to upload screenshots of your charts. Let Stratman know about which patterns you're looking for, use it as an extra set of eyes to quickly scan your charts, or simply ask questions to gain insight. Upload a single chart or split screen charts to do analysis of multiple charts at once along with a question or query."
+            description="Use the Technicals copilot to upload screenshots of your charts. Let Stratman know about which patterns you&apos;re looking for, use it as an extra set of eyes to quickly scan your charts, or simply ask questions to gain insight. Upload a single chart or split screen charts to do analysis of multiple charts at once along with a question or query."
           />
         </div>
         <div className="w-full md:w-9/12 lg:w-6/12 xl:w-[45%] sm:px-3 text-center lg:text-start mt-10 sm:mt-16 lg:mt-0">

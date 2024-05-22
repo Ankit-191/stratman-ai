@@ -9,7 +9,7 @@ const Discover = () => {
         <span className="text-blue">your research </span>
       </h2>
 
-      <p className="text-light-white opacity-70 font-base font-openSans leading-[150%] pt-3 max-w-[625px] text-center mx-auto pb-4 sm:pb-6 md:pb-9 lg:pb-8">
+      <p className="text-light-white opacity-70 font-base leading-[150%] pt-3 max-w-[625px] text-center mx-auto pb-4 sm:pb-6 md:pb-9 lg:pb-8">
         Stay informed and ahead of the curve with the latest trends, tips, and
         insights in video ad creation and social media marketing.
       </p>

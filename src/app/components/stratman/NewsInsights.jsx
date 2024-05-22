@@ -5,7 +5,7 @@ import CustomTags from "../common/startman/custom-ui/CustomTags";
 const NewsInsights = () => {
   return (
     <>
-      <div className='bg-[url("/stratman/images/png/bgImage.png")] bg-no-repeat sm:py-[64px] py-12 md:py-[80px] lg:py-[100px] rounded-[40px]'>
+      <div className="bg-blue-image bg-cover bg-center mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] py-[50px] sm:py-[80px] lg:py-[100px]">
         <div className="max-w-[1164px] px-3 mx-auto">
           <div className="text-center">
             <CustomTags
@@ -14,12 +14,12 @@ const NewsInsights = () => {
               svgColor="#0071BC"
             />
           </div>
-          <h2 className=" 'font-anekTelegu font-semibold mt-5 text-white text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[120%]">
+          <h2 className=" 'font-anek font-semibold mt-5 text-light-white text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[120%]">
             Our <span className="font-light">NEWS &</span>
             <span className="text-blue"> Insights</span>
           </h2>
 
-          <p className="text-light-white text-sm sm:font-base font-normal font-openSans leading-[150%] pt-3 max-w-[625px] text-center mx-auto pb-4 sm:pb-6 md:pb-9 lg:pb-[60px]">
+          <p className="text-light-white text-sm sm:font-base leading-[150%] pt-3 max-w-[625px] text-center mx-auto pb-4 sm:pb-6 md:pb-9 lg:pb-[60px]">
             Stay informed and ahead of the curve with the latest trends, tips,
             and insights in video ad creation and social media marketing.
           </p>
@@ -28,18 +28,19 @@ const NewsInsights = () => {
               <Image
                 width={528}
                 height={296}
+                alt="analyticsMan"
                 src="/stratman/images/webp/analyticsMan.webp"
               />
-              <h6 className="news_heading font-semibold text-blue pt-5 font-anekTelegu text-xl lg:text-2xl">
+              <h6 className="news_heading font-semibold text-blue pt-5 font-anek text-xl lg:text-2xl">
                 Analytics AI: Why You Need Stratman AI in 2024
               </h6>
-              <p className="sm:pt-2 news_pera font-openSans font-normal text-sm sm:text-base text-lightBlack max-w-[518px]">
+              <p className="sm:pt-2 news_pera text-sm sm:text-base text-lightBlack max-w-[518px]">
                 Stratman AI uses the newest artificial intelligence (AI) and
                 machine learning (ML) technologies to analyze cryptocurrency
                 markets.
               </p>
               <a
-                className="border-darkblue gap-[12px] flex items-center news_read border-b-[1.5px] text-darkBlue font-openSans pt-1 sm:pt-4 font-normal"
+                className="border-darkblue gap-[12px] flex items-center news_read border-b-[1.5px] text-darkBlue pt-1 sm:pt-4"
                 href=""
               >
                 Read More
@@ -51,17 +52,18 @@ const NewsInsights = () => {
                 width={528}
                 height={296}
                 src="/stratman/images/webp/marketGrooup.webp"
+                alt="market"
               />
-              <h6 className="news_heading font-semibold text-blue pt-5 font-anekTelegu text-xl lg:text-2xl">
+              <h6 className="news_heading font-semibold text-blue pt-5 font-anek text-xl lg:text-2xl">
                 AI Financial Market: Stratman AI Leads the Way
               </h6>
-              <p className="sm:pt-2 news_pera font-openSans font-normal text-sm sm:text-base text-lightBlack max-w-[518px]">
-                In the current 2024 financial markets, it's more important than
+              <p className="sm:pt-2 news_pera text-sm sm:text-base text-lightBlack max-w-[518px]">
+                In the current 2024 financial markets, it&apos;s more important than
                 ever to have accurate forecasting.
               </p>
               <a
-                className="border-darkblue flex items-center gap-4 news_read border-b-[1.5px] text-darkBlue font-openSans pt-1 sm:pt-4 font-normal"
-                href=""
+                className="border-darkblue flex items-center gap-4 news_read border-b-[1.5px] text-darkBlue pt-1 sm:pt-4"
+                href="#"
               >
                 Read More
                 <ReadMoreArrow />
