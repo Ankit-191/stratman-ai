@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 body {
   font-family: "Open Sans", sans-serif !important;
+}
+
+/* SLIDER CSS START HERE */
+.swiper-pagination {
+  position: unset !important;
+}
+
+.swiper-slide-active div {
+  position: relative !important;
+  border-color: #a854e9 !important;
+}
+
+.swiper-slide-active .swiper-card {
+  background: linear-gradient(180deg, #0071bc 0%, #58b9f9 100%);
+}
+
+.swiper-slide-active p {
+  color: white;
+}
+
+.swiper-slide {
+  display: flex !important;
+  justify-content: center;
 }
