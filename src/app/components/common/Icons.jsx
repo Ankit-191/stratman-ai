@@ -27,7 +27,7 @@ export const WhiteStar = ({ svgColor }) => {
 export const SemiColon = () => {
   return (
     <svg
-      className="collen"
+      className="collin"
       width="44"
       height="32"
       viewBox="0 0 44 32"

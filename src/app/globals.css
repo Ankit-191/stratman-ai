@@ -23,6 +23,10 @@ body {
   color: #fefefe !important;
 }
 
+.swiper-slide-active .collin path {
+  fill: #0071BC !important;
+  opacity: 0.5 !important;
+}
 .swiper-slide {
   display: flex !important;
   justify-content: center;

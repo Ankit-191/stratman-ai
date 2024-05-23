@@ -83,7 +83,7 @@ const Testimonial = () => {
                         {obj.Profession}
                       </p>
                     </div>
-                    <div>{obj.Collen}</div>
+                    <div>{obj.Collin}</div>
                   </div>
                 </div>
               </div>

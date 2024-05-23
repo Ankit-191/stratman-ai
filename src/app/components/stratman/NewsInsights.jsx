@@ -28,7 +28,7 @@ const NewsInsights = () => {
             and insights in video ad creation and social media marketing.
           </p>
           <div className="flex md:flex-row flex-col items-center gap-4 lg:gap-6 sm:mt-4 lg:mt-12 pt-3 mt-5">
-            <div className="flex bg-dark-blue max-w-[558px] duration-200 md:min-h-[428px] lg:min-h-[490px] xl:h-auto flex-col items-start news_card p-3 lg:p-5 rounded-[12px] flex-column">
+            <div className="flex bg-dark-blue max-w-[558px] duration-200 md:min-h-[446px] lg:min-h-[519px] xl:min-h-[491px] flex-col items-start news_card p-3 lg:p-5 rounded-[12px] flex-column">
               <Image
                 width={528}
                 height={296}
@@ -51,7 +51,7 @@ const NewsInsights = () => {
                 <ReadMoreArrow />
               </Link>
             </div>
-            <div className="flex bg-dark-blue max-w-[558px] duration-200 md:min-h-[428px] lg:min-h-[490px] xl:h-auto flex-col items-start news_card p-3 lg:p-5 rounded-[12px] flex-column">
+            <div className="flex bg-dark-blue max-w-[558px] duration-200 md:min-h-[446px] lg:min-h-[519px] xl:min-h-[491px] flex-col items-start news_card p-3 lg:p-5 rounded-[12px] flex-column">
               <Image
                 width={528}
                 height={296}
