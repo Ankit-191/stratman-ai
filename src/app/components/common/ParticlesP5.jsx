@@ -68,7 +68,7 @@ const ParticlesFive = () => {
             }
         }
     };
-    return <div ref={canvasRef} style={{ width: '100%', height: '409px', overflow: "hidden" }} />;
+    return <div ref={canvasRef} style={{ width: '100%',  }} />;
 };
 const useParticlesCount = () => {
     const getParticlesCount = () => {
