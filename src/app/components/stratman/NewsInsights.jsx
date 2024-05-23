@@ -7,7 +7,7 @@ const NewsInsights = () => {
   return (
     <>
       <div
-        className="bg-blue-image bg-cover bg-center mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] py-[50px] sm:py-[80px] lg:py-[100px]"
+        className="bg-box-image bg-repeat bg-cover bg-center bg-dark-black mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] py-[50px] sm:py-[80px] lg:py-[100px]"
         id="news"
       >
         <div className="max-w-[1164px] px-3 mx-auto">

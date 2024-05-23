@@ -14,7 +14,7 @@ import CustomTags from "../common/startman/custom-ui/CustomTags";
 const Testimonial = () => {
   return (
     <div
-      className="bg-blue-image bg-cover bg-center mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] pt-12 lg:pt-[100px] pb-[100px] lg:pb-[150px] xl:pb-[100px]"
+      className="bg-box-image bg-repeat bg-cover bg-center bg-dark-black mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] pt-12 lg:pt-[100px] pb-[100px] lg:pb-[150px] xl:pb-[100px]"
       id="testimonials"
     >
       <div className="container max-w-[1164px] mx-auto px-3 relative">
