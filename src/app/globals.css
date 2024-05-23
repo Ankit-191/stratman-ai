@@ -1,10 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-body {
-  font-family: "Open Sans", sans-serif !important;
-}
 html,
 body {
+  font-family: "Open Sans", sans-serif !important;
   scroll-behavior: smooth !important;
 }
 /* SLIDER CSS START HERE */
@@ -22,9 +20,7 @@ body {
 }
 .swiper-slide-active p {
   opacity: 1 !important;
-}
-.swiper-slide-active p {
-  color: white;
+  color: #fefefe !important;
 }
 
 .swiper-slide {

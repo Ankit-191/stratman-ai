@@ -1,8 +1,8 @@
 import Customers from "../app/components/stratman/Customers";
 import Hero from "../app/components/stratman/Hero";
 import Trends from "../app/components/stratman/Trends";
-import ChartAanalysis from "../app/components/stratman/ChartAanalysis";
-import Testinomial from "../app/components/stratman/Testinomial";
+import ChartAnalysis from "../app/components/stratman/ChartAnalysis";
+import Testimonial from "./components/stratman/Testimonial";
 import Dashboard from "../app/components/stratman/Dashboard";
 import SearchMode from "../app/components/stratman/SearchMode";
 import Copilot from "../app/components/stratman/Copilot";
@@ -29,11 +29,11 @@ export default function Home() {
           <Hero />
           <Customers />
           <Trends />
-          <ChartAanalysis />
+          <ChartAnalysis />
           <Dashboard />
           <SearchMode />
           <Copilot />
-          <Testinomial />
+          <Testimonial />
           <Pricing />
           <NewsInsights />
           <Faq />

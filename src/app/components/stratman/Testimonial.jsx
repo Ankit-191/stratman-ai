@@ -11,7 +11,7 @@ import { organizationData } from "../common/Helper";
 import { LeftSwiperArrow, RightSwiperArrow } from "../common/Icons";
 import CustomTags from "../common/startman/custom-ui/CustomTags";
 
-const Testinomial = () => {
+const Testimonial = () => {
   return (
     <div
       className="bg-blue-image bg-cover bg-center mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] pt-12 lg:pt-[100px] pb-[100px] lg:pb-[150px] xl:pb-[100px]"
@@ -101,4 +101,4 @@ const Testinomial = () => {
   );
 };
 
-export default Testinomial;
+export default Testimonial;

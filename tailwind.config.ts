@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
-        'x12': '1350px',
+        x12: "1350px",
       },
       fontFamily: {
         anek: ["'Anek Telugu', sans-serif"],
@@ -20,7 +20,6 @@ const config: Config = {
         "light-black": "#0A0A0A",
         "light-blue": "#F1F1F1",
         "dark-blue": "#CFECFF",
-        gray: "#F1F1F1",
         "light-gray": "rgba(254, 254, 254, 0.15)",
         "dark-black": "#00192A",
       },

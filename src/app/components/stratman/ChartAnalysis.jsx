@@ -5,7 +5,7 @@ import chartTwo from "/public/stratman/images/png/chart-two.png";
 import chartThree from "/public/stratman/images/png/chart-three.png";
 import chartFour from "/public/stratman/images/png/chart-four.png";
 import Image from "next/image";
-const ChartAanalysis = () => {
+const ChartAnalysis = () => {
   return (
     <div className="container max-w-[1164px] mx-auto px-3">
       <div className="flex flex-col-reverse lg:flex-row flex-wrap justify-center lg:justify-between items-center py-[50px] sm:pt-[120px] sm:pb-[80px] xl:py-[200px]">
@@ -65,4 +65,4 @@ const ChartAanalysis = () => {
   );
 };
 
-export default ChartAanalysis;
+export default ChartAnalysis;
