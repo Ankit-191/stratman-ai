@@ -11,7 +11,7 @@ export const metadata = {
   title: "Stratman AI",
   description: "Make faster and smarter decisions with Stratman AI",
   openGraph: {
-    images: "/met-img.png",
+    images: "/meta-img.webp",
     title: "Stratman AI",
   },
 };
