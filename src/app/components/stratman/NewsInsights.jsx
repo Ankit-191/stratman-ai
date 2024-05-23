@@ -3,12 +3,16 @@ import Image from "next/image";
 import { ReadMoreArrow } from "../common/Icons";
 import CustomTags from "../common/startman/custom-ui/CustomTags";
 import Link from "next/link";
+import ParticlesFive from "../common/ParticlesP5";
 const NewsInsights = () => {
   return (
-    <>
+    <div className="relative bg-box-image bg-repeat bg-cover bg-center bg-dark-black mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] py-[50px] sm:py-[80px] lg:py-[100px]" id="news">
+      <div className="absolute top-0 w-full h-full z-10">
+        <ParticlesFive />
+      </div>
       <div
-        className="bg-box-image bg-repeat bg-cover bg-center bg-dark-black mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] py-[50px] sm:py-[80px] lg:py-[100px]"
-        id="news"
+        className="relative z-20"
+        
       >
         <div className="max-w-[1164px] px-3 mx-auto">
           <div className="text-center">
@@ -76,7 +80,7 @@ const NewsInsights = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
