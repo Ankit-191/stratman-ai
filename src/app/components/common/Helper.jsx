@@ -6,7 +6,8 @@ import yomeeAvatar from "/public/stratman/images/png/yooMeeMember.png";
 import ramaswamiAvatar from "/public/stratman/images/png/ramaswamiMember.png";
 import kosanamAvatar from "/public/stratman/images/png/kosanamMember.png";
 import { SemiColon } from "./Icons";
-// NAVBAR 
+import { title } from "process";
+// NAVBAR
 export const NavigationList = [
   {
     href: "#home",
@@ -102,5 +103,23 @@ export const CopilotList = [
   },
   {
     title: "Technicals",
+  },
+];
+// FAQ LIST
+export const FaqsList = [
+  {
+    title: "How do I get started with Stratman AI?",
+  },
+  {
+    title: "What features does Stratman AI offer?",
+  },
+  {
+    title: "How does the Google Trends Data integration work?",
+  },
+  {
+    title: "Is my data secure with Stratman AI?",
+  },
+  {
+    title: "Can I customize the charts and data views?",
   },
 ];
