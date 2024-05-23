@@ -18,16 +18,16 @@ const NewsInsights = () => {
               svgColor="#0071BC"
             />
           </div>
-          <h2 className=" 'font-anek font-semibold mt-5 text-light-white text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl !leading-[120%]">
-            Our <span className="font-light">NEWS &</span>
+          <h2 className="font-anek font-semibold mt-5 text-light-white text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl !leading-[120%]">
+            Our <span className="font-extralight">News &</span>
             <span className="text-blue"> Insights</span>
           </h2>
 
-          <p className="text-light-white text-sm sm:font-base !leading-[150%] pt-3 max-w-[625px] text-center mx-auto pb-4 sm:pb-6 md:pb-9 lg:pb-[60px]">
+          <p className="text-light-white text-sm sm:font-base !leading-[150%] pt-3 max-w-[625px] text-center mx-auto ">
             Stay informed and ahead of the curve with the latest trends, tips,
             and insights in video ad creation and social media marketing.
           </p>
-          <div className="flex md:flex-row flex-col items-center gap-4 lg:gap-6 sm:mt-4 lg:mt-12 pt-3">
+          <div className="flex md:flex-row flex-col items-center gap-4 lg:gap-6 sm:mt-4 lg:mt-12 pt-3 mt-5">
             <div className="flex bg-dark-blue max-w-[558px] duration-200 md:min-h-[428px] lg:min-h-[490px] xl:h-auto flex-col items-start news_card p-3 lg:p-5 rounded-[12px] flex-column">
               <Image
                 width={528}

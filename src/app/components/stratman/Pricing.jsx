@@ -10,19 +10,19 @@ const Pricing = () => {
       <div className="text-center">
         <CustomTags
           title="PRICING"
-          parentClassName="inline-flex px-[27.5px]"
+          parentClassName="inline-flex px-[38.5px]"
           svgColor="#0071BC"
         />
       </div>
       <h2 className="text-black text-center pt-5 font-semibold max-w-[726px] mx-auto text-[28px] xs:text-3xl sm:text-4xl md:text-5xl xl:text-6xl !leading-[120%] font-anek">
-        Stratman AI Vs <span className="font-light">other stock </span>
+        Stratman AI Vs <span className="font-extralight">other stock </span>
         <span className="text-blue">research assistant</span>
       </h2>
 
       <div className="flex flex-row flex-wrap justify-center -mx-3 mt-6 md:mt-12 pt-3">
         <div className="sm:w-6/12 lg:w-4/12 px-3">
-          <div className="bg-light-blue pricing-gradiant transition-all duration-200 rounded-[16px] py-6 xl:py-8 px-5 xl:px-6">
-            <h4 className="text-black duration-200 transition-all price_heading !leading-full  font-semibold font-anek text-[32px]">
+          <div className="bg-light-blue pricing-gradiant transition-all duration-200 rounded-[16px] py-6 xl:py-8 px-5 xl:px-6 group">
+            <h4 className="text-black duration-200 transition-all price_heading !leading-full  font-semibold font-anek text-[32px] border-b border-[#0A0A0A]/10 group-hover:border-white/10">
               FinChat
             </h4>
             <ul className="mt-6 xl:mt-10">
@@ -96,8 +96,8 @@ const Pricing = () => {
           </div>
         </div>
         <div className="sm:w-6/12 lg:w-4/12 sm:pt-0 pt-6 px-3">
-          <div className="bg-light-blue pricing-gradiant transition-all duration-200 rounded-[16px] py-6 xl:py-8 px-5 xl:px-6">
-            <h4 className="text-black duration-200 transition-all  !leading-full price_heading  font-semibold font-anek text-[32px]">
+          <div className="bg-light-blue pricing-gradiant transition-all duration-200 rounded-[16px] py-6 xl:py-8 px-5 xl:px-6 group">
+            <h4 className="text-black duration-200 transition-all  !leading-full price_heading  font-semibold font-anek text-[32px] border-b border-[#0A0A0A]/10 group-hover:border-white/10">
               Stratman AI
             </h4>
             <ul className="mt-6 xl:mt-10">
@@ -171,8 +171,8 @@ const Pricing = () => {
           </div>
         </div>
         <div className="sm:w-6/12 lg:pt-0 pt-6 lg:w-4/12 px-3">
-          <div className="bg-light-blue pricing-gradiant transition-all duration-200 rounded-[16px] py-6 xl:py-8 px-5 xl:px-6">
-            <h4 className="text-black duration-200 transition-all  !leading-full price_heading font-semibold font-anek text-[32px]">
+          <div className="bg-light-blue pricing-gradiant transition-all duration-200 rounded-[16px] py-6 xl:py-8 px-5 xl:px-6 group">
+            <h4 className="text-black duration-200 transition-all  !leading-full price_heading font-semibold font-anek text-[32px] border-b border-[#0A0A0A]/10 group-hover:border-white/10">
               Borea
             </h4>
             <ul className="mt-6 xl:mt-10">
