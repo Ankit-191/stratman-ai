@@ -1,21 +1,29 @@
+"use client"
+import { useState } from 'react';
 import Image from "next/image";
 import Content from "../common/startman/reusable-content/Content";
 import copilot from "/public/stratman/images/png/copilot.png";
 import searchIcon from "/public/stratman/images/svg/search-icon.svg";
 import { CopilotList } from "../common/Helper";
 const Copilot = () => {
+  const [activeTab, setActiveTab] = useState(0);
   return (
     <div className="max-w-[1164px] mx-auto px-3">
       <div className="flex flex-wrap justify-center lg:justify-between items-center pb-[50px] sm:pb-[80px] xl:pb-[140px]">
-        <div className="w-full md:w-9/12 lg:w-6/12 sm:px-3 text-center lg:text-start">
+        <div className="w-full md:w-9/12 lg:w-6/12 text-center lg:text-start">
           <div className="bg-light-blue rounded-[14px] sm:px-[30px] p-4 sm:py-[27px] inline-block">
             <Image src={copilot} alt="trend data" width={452} height={185} />
             <div className="flex justify-between flex-wrap md:px-10 mt-2 md:mt-6">
               {CopilotList.map((obj, index) => {
+                const isActive = index === activeTab;
                 return (
                   <button
-                    className="text-xs max-[410px]:w-5/12 text-black mt-2 rounded-full py-[7px] px-4 hover:text-light-white hover:bg-dark-black transition-all duration-300 ease-in-out"
+                    className={`text-xs max-[410px]:w-5/12 mt-2 rounded-full py-[7px] px-4 transition-all duration-300 ease-in-out ${isActive
+                        ? 'text-light-white bg-dark-black'
+                        : 'text-black hover:text-light-white hover:bg-dark-black'
+                      }`}
                     key={index}
+                    onClick={() => setActiveTab(index)}
                   >
                     {obj.title}
                   </button>

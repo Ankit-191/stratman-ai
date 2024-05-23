@@ -5,7 +5,7 @@ const Customers = () => {
   return (
     <>
       <div
-        className="container max-w-[1164px] mx-auto pt-[50px] sm:pt-[80px] lg:pt-[60px] px-3"
+        className="container max-w-[1164px] mx-auto pt-[50px] sm:pt-[80px] lg:pt-[60px] px-3 sm:px-5"
         id="home"
       >
         <div className="flex flex-wrap justify-between px-3 xl:px-9 items-center">

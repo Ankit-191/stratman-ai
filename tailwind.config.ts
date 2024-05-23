@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       screens: {
         x12: "1350px",
+        "max-2xl": "2560px",
       },
       fontFamily: {
         anek: ["'Anek Telugu', sans-serif"],
@@ -30,8 +31,7 @@ const config: Config = {
       backgroundImage: {
         "hero-image":
           "url('../../public/stratman/images/webp/hero-bg-image.webp')",
-        "box-image":
-          "url('../../public/stratman/images/svg/bg-box.svg')",
+        "box-image": "url('../../public/stratman/images/svg/bg-box.svg')",
         "blue-image":
           "url('../../public/stratman/images/png/background-blue-image.png')",
         "blue-linear-gradient":

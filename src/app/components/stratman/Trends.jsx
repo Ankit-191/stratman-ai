@@ -6,7 +6,7 @@ import Image from "next/image";
 const Trends = () => {
   return (
     <>
-      <div className="max-w-[1164px] mx-auto px-3">
+      <div className="max-w-[1164px] mx-auto px-3 sm:px-5">
         <div className="py-[50px] sm:py-[80px] xl:pt-[160px] xl:pb-[100px] text-center lg:text-start w-full md:w-full lg:w-auto mx-auto" id="features">
           <CustomTags
             title="features"
@@ -24,8 +24,8 @@ const Trends = () => {
           </p>
         </div>
         <div className="flex flex-wrap justify-center lg:justify-between items-center">
-          <div className="w-full md:w-9/12 lg:w-6/12 sm:px-3 text-center lg:text-start">
-            <div className="bg-light-blue rounded-[14px] pe-5 ps-[5px] sm:pe-[31px] pb-5 sm:pb-[27px] inline-block">
+          <div className="w-full md:w-9/12 lg:w-6/12 text-center lg:text-start">
+            <div className="bg-light-blue rounded-[14px] pe-5 xl:ps-[5px] sm:pe-[31px] pb-5 sm:pb-[27px] inline-block">
               <Image
                 src={trendsData}
                 alt="trend data"

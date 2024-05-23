@@ -48,11 +48,11 @@ const NewsInsights = () => {
                 markets.
               </p>
               <Link
-                className="border-dark-black gap-[12px] flex items-center news_read border-b-[1.5px] text-dark-black pt-1 sm:pt-5"
+                className="border-dark-black group gap-[12px] flex items-center news_read border-b-[1.5px] text-dark-black pt-1 sm:pt-5"
                 href="#"
               >
                 Read More
-                <ReadMoreArrow />
+                <ReadMoreArrow className="group-hover:translate-x-2 transition-all duration-200" />
               </Link>
             </div>
             <div className="flex bg-dark-blue max-w-[558px] duration-200 md:min-h-[446px] lg:min-h-[519px] xl:min-h-[491px] flex-col items-start news_card p-3 lg:p-5 rounded-[12px] flex-column">
@@ -70,11 +70,11 @@ const NewsInsights = () => {
                 than ever to have accurate forecasting.
               </p>
               <Link
-                className="border-dark-black flex items-center gap-4 news_read border-b-[1.5px] text-dark-black pt-1 sm:pt-5"
+                className="border-dark-black group flex items-center gap-4 news_read border-b-[1.5px] text-dark-black pt-1 sm:pt-5"
                 href="#"
               >
                 Read More
-                <ReadMoreArrow />
+                <ReadMoreArrow className="group-hover:translate-x-2 transition-all duration-200" />
               </Link>
             </div>
           </div>

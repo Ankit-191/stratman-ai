@@ -25,7 +25,7 @@ body {
 }
 
 .swiper-slide-active .collin path {
-  fill: #0071BC !important;
+  fill: #0071bc !important;
   opacity: 0.5 !important;
 }
 .swiper-slide {

@@ -22,7 +22,7 @@ const Faq = () => {
           />
         </div>
         <h2 className="font-semibold font-anek text-center text-3xl sm:text-4xl md:text-6xl mb-6 sm:mb-9 lg:mb-12 mt-3 sm:mt-5">
-          Frequently <span className="font-normal"> Asked </span>
+          Frequently <span className="font-extralight"> Asked </span>
           <span className="text-blue"> Questions</span>
         </h2>
         {FaqsList.map((obj, index) => {
@@ -30,14 +30,14 @@ const Faq = () => {
             <Accordion
               key={index}
               open={open === index}
-              icon={<FaqArrow id={index} open={open} />}
+              // icon={<FaqArrow id={index} open={open} />}
               className={`max-w-[840px] mx-auto bg-light-blue py-3 sm:py-4 px-4 sm:px-6 rounded-[12px] ${
                 index === 4 ? "mb-0" : "mb-4 sm:mb-6"
               }`}
             >
               <AccordionHeader
                 onClick={() => handleOpen(index)}
-                className="font-medium font-anek text-lg sm:text-xl text-light-black border-b-0 py-0 flex justify-between text-start"
+                className="font-medium font-anek text-lg sm:text-xl !leading-[150%] text-light-black border-b-0 py-0 flex justify-between text-start"
               >
                 {obj.title}
               </AccordionHeader>

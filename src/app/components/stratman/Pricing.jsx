@@ -6,7 +6,7 @@ import { PricingData } from "../common/Helper";
 const Pricing = () => {
   return (
     <div
-      className="max-w-[1164px] xl:py-[140px] lg:py-[80px] md:py-20 sm:py-16 py-12 px-3 mx-auto"
+      className="max-w-[1164px] xl:py-[140px] lg:py-[80px] md:py-20 sm:py-16 py-12 px-3 sm:px-5 mx-auto"
       id="pricing"
     >
       <div className="text-center">
@@ -24,8 +24,8 @@ const Pricing = () => {
       <div className="flex flex-row flex-wrap justify-center -mx-3 mt-6 md:mt-12 pt-3">
         {PricingData.map((obj, index) => (
           <div key={index} className={`w-full max-w-[400px] sm:w-6/12 lg:w-4/12 px-3  ${index === 1 ? 'mt-6 sm:mt-0' : ''} ${index === 2 ? 'mt-6 lg:mt-0' : ''}`}>
-            <div className="bg-light-blue pricing-gradient transition-all duration-200 rounded-[16px] py-6 xl:py-8 px-5 xl:px-6 group">
-              <h4 className="text-black duration-200 transition-all price_heading !leading-full font-semibold font-anek text-[30px] lg:text-[32px] border-b border-[#0A0A0A]/10 group-hover:border-white/10">
+            <div className="bg-light-blue pricing-gradient rounded-[16px] py-6 xl:py-8 px-5 xl:px-6 group">
+              <h4 className="text-black price_heading !leading-full font-semibold font-anek text-[30px] lg:text-[32px] border-b border-[#0A0A0A]/10 group-hover:border-white/10">
                 {obj.name}
               </h4>
               <ul className="mt-6 xl:mt-10">
