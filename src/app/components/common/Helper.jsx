@@ -13,7 +13,7 @@ export const NavigationList = [
     title: "Home",
   },
   {
-    href: "#feature",
+    href: "#features",
     title: "Feature",
   },
   {
