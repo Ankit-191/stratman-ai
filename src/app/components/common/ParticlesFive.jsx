@@ -1,23 +1,29 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
-import { useP5 } from "react-p5";
+
 const ParticlesFive = () => {
   const canvasRef = useRef(null);
   const particlesCount = useParticlesCount();
+
   useEffect(() => {
-    if (typeof window !== "undefined" && window.p5) {
+    const loadP5 = async () => {
+      const p5 = (await import('p5')).default;
       const canvas = canvasRef.current;
-      const p5Instance = new window.p5(sketch, canvas);
+      const p5Instance = new p5(sketch, canvas);
       return () => {
         p5Instance.remove();
       };
-    } else {
-      console.error("p5.js library not found.");
-    }
+    };
+
+    loadP5().catch((error) => {
+      console.error("p5.js library not found.", error);
+    });
   }, [particlesCount]);
+
   const sketch = (p5) => {
     let particles = [];
+
     p5.setup = () => {
       p5.createCanvas(p5.windowWidth, 409); // Set the height to 409px
       p5.noStroke();
@@ -27,6 +33,7 @@ const ParticlesFive = () => {
         particles.push(new Particle(p5.random(p5.width), p5.random(p5.height)));
       }
     };
+
     p5.draw = () => {
       p5.clear();
       // Update and display particles
@@ -41,9 +48,14 @@ const ParticlesFive = () => {
             particles[j].x,
             particles[j].y
           );
+          if (distance < 100) {
+            p5.stroke(255, 255, 255, 0);
+            p5.line(particles[i].x, particles[i].y, particles[j].x, particles[j].y);
+          }
         }
       }
     };
+
     class Particle {
       constructor(x, y) {
         this.x = x;
@@ -52,6 +64,7 @@ const ParticlesFive = () => {
         this.radius = p5.random(2, 4);
         this.opacity = 100;
       }
+
       update() {
         this.x += this.velocity.x;
         this.y += this.velocity.y;
@@ -62,33 +75,43 @@ const ParticlesFive = () => {
           this.velocity.y *= -1;
         }
       }
+
       display() {
         p5.circle(this.x, this.y, this.radius);
       }
     }
   };
+
   return <div ref={canvasRef} style={{ width: "100%" }} />;
 };
+
 const useParticlesCount = () => {
   const getParticlesCount = () => {
-    const screenWidth = window.innerWidth;
-    if (screenWidth <= 767) {
-      return 30; // Decreased number of particles on small screens
+    if (typeof window !== 'undefined') {
+      const screenWidth = window.innerWidth;
+      if (screenWidth <= 767) {
+        return 30; // Decreased number of particles on small screens
+      }
     }
     return 40; // Default number of particles
   };
-  const [particlesCount, setParticlesCount] = React.useState(
-    getParticlesCount()
-  );
+
+  const [particlesCount, setParticlesCount] = React.useState(getParticlesCount());
+
   useEffect(() => {
     const handleResize = () => {
       setParticlesCount(getParticlesCount());
     };
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
+
+    if (typeof window !== 'undefined') {
+      window.addEventListener("resize", handleResize);
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }
   }, []);
+
   return particlesCount;
 };
+
 export default ParticlesFive;
