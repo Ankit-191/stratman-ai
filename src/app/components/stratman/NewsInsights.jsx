@@ -18,12 +18,12 @@ const NewsInsights = () => {
               svgColor="#0071BC"
             />
           </div>
-          <h2 className=" 'font-anek font-semibold mt-5 text-light-white text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-[120%]">
+          <h2 className=" 'font-anek font-semibold mt-5 text-light-white text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl !leading-[120%]">
             Our <span className="font-light">NEWS &</span>
             <span className="text-blue"> Insights</span>
           </h2>
 
-          <p className="text-light-white text-sm sm:font-base leading-[150%] pt-3 max-w-[625px] text-center mx-auto pb-4 sm:pb-6 md:pb-9 lg:pb-[60px]">
+          <p className="text-light-white text-sm sm:font-base !leading-[150%] pt-3 max-w-[625px] text-center mx-auto pb-4 sm:pb-6 md:pb-9 lg:pb-[60px]">
             Stay informed and ahead of the curve with the latest trends, tips,
             and insights in video ad creation and social media marketing.
           </p>

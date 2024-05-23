@@ -15,7 +15,7 @@ export default function Hero() {
               title="Our AI integration"
               childClassName="text-light-white"
             />
-            <h1 className="text-4xl sm:text-6xl lg:text-7xl text-light-white font-anek leading-[120%] font-extralight mt-2 sm:mt-3">
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl text-light-white font-anek !leading-[120%] font-extralight mt-2 sm:mt-3">
               <span className="font-semibold">Make faster</span> and
               <span className="font-semibold"> smarter </span> decisions with
               <span className="font-semibold text-blue"> Stratman Al</span>
