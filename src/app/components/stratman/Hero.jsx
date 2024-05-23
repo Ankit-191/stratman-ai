@@ -5,17 +5,17 @@ import CustomTags from "../common/startman/custom-ui/CustomTags";
 export default function Hero() {
   return (
     <>
-      <div className="flex flex-col bg-hero-image bg-center bg-no-repeat bg-cover lg:h-[calc(100vh-40px)] lg:mx-5 lg:mt-5 mx-3 mt-3 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px]">
+      <div className="flex flex-col bg-hero-image bg-center bg-no-repeat bg-cover lg:h-[calc(100vh-40px)] md:mx-5 md:mt-5 mx-3 mt-3 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px]">
         <Navigation />
         <div className="container max-w-[1164px] mx-auto px-3 grow">
           <div className="flex text-center flex-col justify-center items-center h-full pt-20 pb-[100px]">
             <CustomTags
               svgColor="white"
-              parentClassName="!bg-light-gray border border-[#FFFFFF26]"
+              parentClassName="!bg-light-gray border border-[#FFFFFF26] !py-2 sm:!py-[9px]"
               title="Our AI integration"
               childClassName="text-light-white"
             />
-            <h1 className="text-4xl sm:text-6xl lg:text-7xl text-light-white font-anek !leading-[120%] font-extralight mt-2 sm:mt-3">
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl text-light-white font-anek !leading-[120%] font-extralight mt-3">
               <span className="font-semibold">Make faster</span> and
               <span className="font-semibold"> smarter </span> decisions with
               <span className="font-semibold text-blue"> Stratman Al</span>

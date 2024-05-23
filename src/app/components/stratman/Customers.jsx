@@ -11,7 +11,11 @@ const Customers = () => {
               <div
                 key={index}
                 className={`w-6/12 md:w-auto flex justify-center md:justify-start ${
-                  index === 2 ? "mt-8 md:mt-0" : index === 3 ? "mt-8 md:mt-0" : ""
+                  index === 2
+                    ? "mt-8 md:mt-0"
+                    : index === 3
+                    ? "mt-8 md:mt-0"
+                    : ""
                 }`}
               >
                 <Image
@@ -21,13 +25,13 @@ const Customers = () => {
                   height={52}
                   className={` ${
                     index === 0
-                      ? "w-[150px] sm:w-[170px] lg:w-[180px] h-[36px] sm:h-[42px] lg:h-[52px]"
+                      ? "w-[140px] sm:w-[170px] lg:w-[180px] h-[30px] sm:h-[42px] lg:h-[52px]"
                       : index === 1
-                      ? "w-[88px] sm:w-[108px] lg:w-[128px] h-[36px] sm:h-[42px] lg:h-[52px]"
+                      ? "w-[78px] sm:w-[108px] lg:w-[128px] h-[30px] sm:h-[42px] lg:h-[52px]"
                       : index === 2
-                      ? "w-[124px] sm:w-[144px] lg:w-[164px] h-[36px] sm:h-[42px] lg:h-[52px]"
+                      ? "w-[114px] sm:w-[144px] lg:w-[164px] h-[30px] sm:h-[42px] lg:h-[52px]"
                       : index === 3
-                      ? "w-[118px] sm:w-[138px] lg:w-[158px] h-[36px] sm:h-[42px] lg:h-[52px]"
+                      ? "w-[108px] sm:w-[138px] lg:w-[158px] h-[30px] sm:h-[42px] lg:h-[52px]"
                       : ""
                   }`}
                 />

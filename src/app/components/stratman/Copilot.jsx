@@ -25,10 +25,11 @@ const Copilot = () => {
             <div className="bg-blue flex items-center mt-4 w-full sm:px-[19px] px-3 py-2.5 sm:py-[11px] rounded-full max-w-[747px]">
               <input
                 type="text"
+                id="search-say"
                 placeholder="Say “hello” to get started"
                 className="text-light-white text-sm pe-4 outline-none placeholder:text-light-white placeholder:text-sm bg-transparent w-full"
               />
-              <button>
+              <label htmlFor="search-say">
                 <Image
                   src={searchIcon}
                   alt="search icon"
@@ -36,15 +37,15 @@ const Copilot = () => {
                   height={30}
                   className=" rotate-90"
                 />
-              </button>
+              </label>
             </div>
           </div>
         </div>
-        <div className="w-full md:w-9/12 lg:w-6/12 xl:w-[45%] sm:px-3 text-center lg:text-start mt-8 lg:mt-0">
+        <div className="w-full lg:w-6/12 xl:w-[45%] sm:px-3 text-center lg:text-start mt-8 lg:mt-0">
           <Content
             title="Copilot"
             heading="Copilot for fundamental data"
-            description="The Fundamentals copilot is designed for users to ask questions about fundamentals for a company. This copilot utilizes LLM &apos;s with our fundamentals data to provide comprehensive answers to natural language questions ( i.e: &apos;Does Nvidia have a positive earnings projection?&apos;), and also comes with a special hotkeys feature. Hotkeys can access specialized data such as SEC 10-K filings, insider trading reports, analyst projections, and more, all with a ticker and a hotkey like such: &apos;tsla r&apos; provides a summary of Tesla&apos;s risk factors section of their most recent 10-K."
+            description="The Fundamentals copilot is designed for users to ask questions about fundamentals for a company. This copilot utilizes LLM 's with our fundamentals data to provide comprehensive answers to natural language questions ( i.e: 'Does Nvidia have a positive earnings projection?'), and also comes with a special hotkeys feature. Hotkeys can access specialized data such as SEC 10-K filings, insider trading reports, analyst projections, and more, all with a ticker and a hotkey like such: 'tsla r' provides a summary of Tesla's risk factors section of their most recent 10-K."
           />
         </div>
       </div>

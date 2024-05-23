@@ -7,7 +7,7 @@ const Trends = () => {
   return (
     <>
       <div className="max-w-[1164px] mx-auto px-3">
-        <div className="py-[50px] sm:py-[80px] lg:pt-[160px] lg:pb-[100px] text-center lg:text-start w-full md:w-9/12 lg:w-auto mx-auto">
+        <div className="py-[50px] sm:py-[80px] lg:pt-[160px] lg:pb-[100px] text-center lg:text-start w-full md:w-full lg:w-auto mx-auto">
           <CustomTags
             title="features"
             parentClassName="inline-flex px-[27.5px]"
@@ -34,7 +34,7 @@ const Trends = () => {
               />
             </div>
           </div>
-          <div className="w-full md:w-9/12 lg:w-6/12 xl:w-[45%] sm:px-3 text-center lg:text-start mt-8 lg:mt-0">
+          <div className="w-full md:w-full lg:w-6/12 xl:w-[45%] sm:px-3 text-center lg:text-start mt-8 lg:mt-0">
             <Content
               title="trends data"
               heading="Trends Data: Key Insights and Trends"

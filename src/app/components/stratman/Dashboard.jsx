@@ -18,7 +18,7 @@ const Dashboard = () => {
                 />
               </div>
             </div>
-            <div className="w-full md:w-9/12 lg:w-6/12 xl:w-5/12 sm:px-3 text-center lg:text-start mt-6 lg:mt-0">
+            <div className="w-full lg:w-6/12 xl:w-5/12 sm:px-3 text-center lg:text-start mt-6 lg:mt-0">
               <Content
                 titleClass="text-light-white"
                 headingClass="text-light-white"
