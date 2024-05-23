@@ -2,7 +2,7 @@ import React from "react";
 import CustomButton from "../common/startman/custom-ui/CustomButton";
 const Discover = () => {
   return (
-    <div className="bg-box-image  bg-dark-black xl:px-0 mx-3 sm:mx-5 py-[50px] sm:py-[80px] lg:py-[100px] rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] bg-repeat bg-center px-3 " >
+    <div className="bg-box-image  bg-dark-black xl:px-0 mx-3 sm:mx-5 py-[50px] sm:py-[80px] lg:py-[100px] rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] bg-repeat bg-cover bg-center px-3 " >
       <h2 className="font-anek max-w-[832px] mx-auto font-semibold text-light-white text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl !leading-[120%]">
         Discover how Stratman
         <span className="font-light"> AI can supercharge </span>
