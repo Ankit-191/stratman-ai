@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Content from "../common/startman/reusable-content/Content";
 import dashboardImage from "/public/stratman/images/png/dashboard-image.png";
-import ParticlesFive from "../common/ParticlesP5";
+import ParticlesFive from "../common/ParticlesFive";
 const Dashboard = () => {
   return (
     <>
       <div className="bg-box-image bg-repeat bg-cover bg-center bg-dark-black mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] relative overflow-hidden">
         <div className="absolute top-0 w-full h-full z-10">
-          {/* <ParticlesFive /> */}
+          <ParticlesFive />
         </div>
         <div className="relative z-20">
           <div className="container max-w-[1164px] mx-auto px-3">

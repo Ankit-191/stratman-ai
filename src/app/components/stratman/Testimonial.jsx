@@ -6,11 +6,10 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Image from "next/image";
-// import SubHeading from "./common/SubHeading";
 import { organizationData } from "../common/Helper";
 import { LeftSwiperArrow, RightSwiperArrow } from "../common/Icons";
 import CustomTags from "../common/startman/custom-ui/CustomTags";
-import ParticlesFive from "../common/ParticlesP5";
+import ParticlesFive from "../common/ParticlesFive";
 
 const Testimonial = () => {
   return (
@@ -20,7 +19,7 @@ const Testimonial = () => {
       id="testimonials"
     >
       <div className="absolute top-0 w-full h-full z-10">
-        {/* <ParticlesFive /> */}
+        <ParticlesFive />
       </div>
       <div className="relative z-20">
         <div className="container max-w-[1164px] mx-auto px-3 relative">
