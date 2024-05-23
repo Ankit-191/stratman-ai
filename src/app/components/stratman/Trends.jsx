@@ -13,7 +13,7 @@ const Trends = () => {
             parentClassName="inline-flex px-[27.5px]"
             svgColor="#0071BC"
           />
-          <h2 className="font-anek text-[32px] sm:text-6xl mt-4 sm:mt-5 mb-3 leading-[120%] text-black font-extralight">
+          <h2 className="font-anek text-[32px] sm:text-6xl mt-4 sm:mt-5 mb-3 !leading-[120%] text-black font-extralight">
             <span className="font-semibold">Stratman AI </span> helps Achieve{" "}
             <span className="font-semibold text-blue">Your Goals</span>
           </h2>
