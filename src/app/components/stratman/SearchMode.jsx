@@ -6,7 +6,7 @@ const SearchMode = () => {
   return (
     <>
       <div className="max-w-[1164px] mx-auto px-3">
-        <div className="flex flex-col-reverse lg:flex-row flex-wrap justify-center lg:justify-between items-center py-[50px] sm:py-[80px] lg:py-[160px]">
+        <div className="flex flex-col-reverse lg:flex-row flex-wrap justify-center lg:justify-between items-center py-[50px] sm:py-[80px] xl:py-[160px]">
           <div className="w-full lg:w-6/12 xl:w-[45%] sm:px-3 text-center lg:text-start mt-8 lg:mt-0">
             <Content
               title="search mode"

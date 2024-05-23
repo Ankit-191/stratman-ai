@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="flex flex-col bg-hero-image bg-center bg-no-repeat bg-cover lg:h-[calc(100vh-40px)] md:mx-5 md:mt-5 mx-3 mt-3 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px]">
         <Navigation />
         <div className="container max-w-[1164px] mx-auto px-3 grow">
-          <div className="flex text-center flex-col justify-center items-center h-full pt-20 pb-[100px]">
+          <div className="flex text-center flex-col justify-center items-center h-full pt-20 pb-[100px] lg:py-0">
             <CustomTags
               svgColor="white"
               parentClassName="!bg-light-gray border border-[#FFFFFF26] !py-2 sm:!py-[9px]"

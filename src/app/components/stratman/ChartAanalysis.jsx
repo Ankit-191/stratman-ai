@@ -8,7 +8,7 @@ import Image from "next/image";
 const ChartAanalysis = () => {
   return (
     <div className="container max-w-[1164px] mx-auto px-3">
-      <div className="flex flex-col-reverse lg:flex-row flex-wrap justify-center lg:justify-between items-center py-[50px] sm:py-[80px] lg:py-[200px]">
+      <div className="flex flex-col-reverse lg:flex-row flex-wrap justify-center lg:justify-between items-center py-[50px] sm:pt-[120px] sm:pb-[80px] xl:py-[200px]">
         <div className="w-full md:w-full lg:w-6/12 sm:px-3 lg:pe-10 xl:pe-24 text-center lg:text-start mt-10 sm:mt-16 lg:mt-0">
           <Content
             title="chart analysis"
