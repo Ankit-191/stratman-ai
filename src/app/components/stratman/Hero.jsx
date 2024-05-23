@@ -5,7 +5,7 @@ import CustomTags from "../common/startman/custom-ui/CustomTags";
 export default function Hero() {
   return (
     <>
-      <div className="flex flex-col bg-hero-image bg-center bg-no-repeat bg-cover h-screen lg:mx-5 lg:mt-5 mx-3 mt-3 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px]">
+      <div className="flex flex-col bg-hero-image bg-center bg-no-repeat bg-cover h-[calc(100vh-20px)] lg:h-[calc(100vh-40px)] lg:mx-5 lg:mt-5 mx-3 mt-3 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px]">
         <Navigation />
         <div className="container max-w-[1164px] mx-auto px-3 grow">
           <div className="flex text-center flex-col justify-center items-center h-full">
