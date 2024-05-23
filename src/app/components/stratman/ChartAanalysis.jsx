@@ -8,15 +8,15 @@ import Image from "next/image";
 const ChartAanalysis = () => {
   return (
     <div className="container max-w-[1164px] mx-auto px-3">
-      <div className="flex flex-wrap justify-center lg:justify-between items-center py-[50px] sm:py-[80px] lg:py-[200px]">
-        <div className="w-full md:w-9/12 lg:w-6/12 sm:px-3 lg:pe-10 xl:pe-24 text-center lg:text-start">
+      <div className="flex flex-col-reverse lg:flex-row flex-wrap justify-center lg:justify-between items-center py-[50px] sm:py-[80px] lg:py-[200px]">
+        <div className="w-full md:w-9/12 lg:w-6/12 sm:px-3 lg:pe-10 xl:pe-24 text-center lg:text-start mt-10 sm:mt-16 lg:mt-0">
           <Content
             title="chart analysis"
             heading="Analyzing Charts for Key Insights"
-            description="Use the Technicals copilot to upload screenshots of your charts. Let Stratman know about which patterns you&apos;re looking for, use it as an extra set of eyes to quickly scan your charts, or simply ask questions to gain insight. Upload a single chart or split screen charts to do analysis of multiple charts at once along with a question or query."
+            description="Use the Technicals copilot to upload screenshots of your charts. Let Stratman know about which patterns you're looking for, use it as an extra set of eyes to quickly scan your charts, or simply ask questions to gain insight. Upload a single chart or split screen charts to do analysis of multiple charts at once along with a question or query."
           />
         </div>
-        <div className="w-full md:w-9/12 lg:w-6/12 xl:w-[45%] sm:px-3 text-center lg:text-start mt-10 sm:mt-16 lg:mt-0">
+        <div className="w-full md:w-9/12 lg:w-6/12 xl:w-[45%] sm:px-3 text-center lg:text-start">
           <div className="bg-light-blue rounded-[14px] px-2 sm:px-4 inline-flex">
             <div className="-mt-4 sm:-mt-10">
               <div className="p-1 sm:p-2">
