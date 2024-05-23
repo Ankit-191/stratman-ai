@@ -19,27 +19,16 @@ const ChartAanalysis = () => {
         <div className="w-full md:w-9/12 lg:w-6/12 xl:w-[45%] sm:px-3 text-center lg:text-start">
           <div className="bg-light-blue rounded-[14px] px-2 sm:px-4 inline-flex">
             <div className="-mt-4 sm:-mt-10">
-              <div className="p-1 sm:p-2">
+              <div className="px-1 sm:px-2 pb-1 sm:pb-2">
                 <Image
                   src={chartOne}
-                  alt="chart"
-                  width={224}
-                  height={177}
-                  className=" rounded-[12px]"
-                />
-              </div>
-              <div className="p-1 sm:p-2">
-                <Image
-                  src={chartTwo}
                   alt="chart"
                   width={224}
                   height={177}
                   className="rounded-[12px]"
                 />
               </div>
-            </div>
-            <div className="translate-y-4 sm:translate-y-10">
-              <div className="p-1 sm:p-2">
+              <div className="px-1 sm:px-2 pt-1 sm:pt-2">
                 <Image
                   src={chartThree}
                   alt="chart"
@@ -48,7 +37,18 @@ const ChartAanalysis = () => {
                   className="rounded-[12px]"
                 />
               </div>
-              <div className="p-1 sm:p-2">
+            </div>
+            <div className="translate-y-4 sm:translate-y-10">
+              <div className="px-1 sm:px-2 pb-1 sm:pb-2">
+                <Image
+                  src={chartTwo}
+                  alt="chart"
+                  width={224}
+                  height={177}
+                  className="rounded-[12px]"
+                />
+              </div>
+              <div className="px-1 sm:px-2 pt-1 sm:pt-2">
                 <Image
                   src={chartFour}
                   alt="chart"
