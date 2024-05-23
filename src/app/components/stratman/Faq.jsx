@@ -28,7 +28,7 @@ const Faq = () => {
         >
           <AccordionHeader
             onClick={() => handleOpen(1)}
-            className="font-medium font-anek text-lg sm:font-xl text-light-black border-b-0 py-0 flex justify-between"
+            className="font-medium font-anek text-lg sm:font-xl text-light-black border-b-0 py-0 flex justify-between text-start"
           >
             How do I get started with Stratman AI?
           </AccordionHeader>
@@ -44,7 +44,7 @@ const Faq = () => {
         >
           <AccordionHeader
             onClick={() => handleOpen(2)}
-            className="font-medium font-anek text-lg sm:font-xl text-light-black border-b-0 py-0 flex justify-between"
+            className="font-medium font-anek text-lg sm:font-xl text-light-black border-b-0 py-0 flex justify-between text-start"
           >
             What features does Stratman AI offer?
           </AccordionHeader>
@@ -60,7 +60,7 @@ const Faq = () => {
         >
           <AccordionHeader
             onClick={() => handleOpen(3)}
-            className="font-medium font-anek text-lg sm:font-xl text-light-black border-b-0 py-0 flex justify-between"
+            className="font-medium font-anek text-lg sm:font-xl text-light-black border-b-0 py-0 flex justify-between text-start"
           >
             How does the Google Trends Data integration work?
           </AccordionHeader>
@@ -76,7 +76,7 @@ const Faq = () => {
         >
           <AccordionHeader
             onClick={() => handleOpen(4)}
-            className="font-medium font-anek text-lg sm:font-xl text-light-black border-b-0 py-0 flex justify-between"
+            className="font-medium font-anek text-lg sm:font-xl text-light-black border-b-0 py-0 flex justify-between text-start"
           >
             Is my data secure with Stratman AI?
           </AccordionHeader>
@@ -92,7 +92,7 @@ const Faq = () => {
         >
           <AccordionHeader
             onClick={() => handleOpen(5)}
-            className="font-medium font-anek text-lg sm:font-xl text-light-black border-b-0 py-0 flex justify-between"
+            className="font-medium font-anek text-lg sm:font-xl text-light-black border-b-0 py-0 flex justify-between text-start"
           >
             Can I customize the charts and data views?
           </AccordionHeader>

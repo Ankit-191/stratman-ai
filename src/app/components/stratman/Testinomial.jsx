@@ -38,7 +38,7 @@ const Testinomial = () => {
           spaceBetween={24}
           slidesPerView={1}
           centeredSlides={true}
-          // autoplay={{ delay: 3000, disableOnInteraction: false }}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
           loop={true}
           pagination={{
             el: ".swiper-pagination",
