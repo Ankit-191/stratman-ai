@@ -2,9 +2,11 @@
 
 body {
   font-family: "Open Sans", sans-serif !important;
+}
+html,
+body {
   scroll-behavior: smooth !important;
 }
-
 /* SLIDER CSS START HERE */
 .swiper-pagination {
   position: unset !important;

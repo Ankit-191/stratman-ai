@@ -21,7 +21,7 @@ const Content = ({
       >
         {description}
       </p>
-      <CustomButton text="Start Chatting Now" className="sm:!px-8" />
+      <CustomButton text="Start Chatting Now" className="sm:!px-6" />
     </>
   );
 };

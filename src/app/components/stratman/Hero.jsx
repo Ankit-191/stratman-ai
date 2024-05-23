@@ -25,19 +25,20 @@ export default function Hero() {
               revolutionize your investment journey.
             </p>
             <div className="bg-light-gray flex items-center mt-6 sm:mt-8 lg:mt-10 w-full sm:px-[27px] px-5 py-2.5 sm:py-4 rounded-full max-w-[747px]">
-              <input
+              <input id="search"
                 type="text"
                 placeholder="Search ideas for your investment..."
                 className="text-light-white text-base opacity-80 pe-4 outline-none placeholder:opacity-80 placeholder:text-light-white placeholder:text-base bg-transparent w-full"
               />
-              <button>
+              <label htmlFor="search">
                 <Image
                   src={searchIcon}
                   alt="search icon"
                   width={30}
                   height={30}
+                  className="cursor-pointer"
                 />
-              </button>
+              </label>
             </div>
           </div>
         </div>

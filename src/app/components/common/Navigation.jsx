@@ -46,7 +46,9 @@ export default function Navigation() {
                   <Link
                     href={obj.href}
                     onClick={() => setHandleNav(false)}
-                    className="text-xl lg:text-base text-light-white hover:text-blue transition-all duration-300 ease-in-out"
+                    className={`text-xl lg:text-base hover:text-blue transition-all duration-300 ease-in-out ${
+                      index === 0 ? "text-blue" : "text-light-white"
+                    }`}
                   >
                     {obj.title}
                   </Link>

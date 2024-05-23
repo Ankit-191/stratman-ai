@@ -11,23 +11,35 @@ import NewsInsights from "../app/components/stratman/NewsInsights";
 import Faq from "../app/components/stratman/Faq";
 import Discover from "../app/components/stratman/Discover";
 import Footer from "../app/components/common/Footer";
-
+import Image from "next/image";
+import line from "../../public/stratman/images/svg/page-line.svg";
 export default function Home() {
   return (
     <>
-      <Hero />
-      <Customers />
-      <Trends />
-      <ChartAanalysis />
-      <Dashboard />
-      <SearchMode />
-      <Copilot />
-      <Testinomial />
-      <Pricing />
-      <NewsInsights />
-      <Faq />
-      <Discover />
-      <Footer />
+      <div className="relative">
+        <Image
+          src={line}
+          alt="line"
+          width={1}
+          height={5000}
+          className="h-[calc(100%-24px)] w-full absolute top-6"
+        />
+        <div className="relative top-0 z-[1] pt-[0.1px]">
+          <Hero />
+          <Customers />
+          <Trends />
+          <ChartAanalysis />
+          <Dashboard />
+          <SearchMode />
+          <Copilot />
+          <Testinomial />
+          <Pricing />
+          <NewsInsights />
+          <Faq />
+          <Discover />
+          <Footer />
+        </div>
+      </div>
     </>
   );
 }

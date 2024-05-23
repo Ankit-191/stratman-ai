@@ -22,7 +22,7 @@ const Copilot = () => {
                 );
               })}
             </div>
-            <div className="bg-blue flex items-center mt-4 w-full sm:px-[19px] px-3 py-2.5 sm:py-[11px] rounded-full max-w-[747px]">
+            <div className="bg-blue flex items-center mt-4 w-full sm:px-[19px] px-4 py-2.5 sm:py-[11px] rounded-full max-w-[747px]">
               <input
                 type="text"
                 id="search-say"
@@ -35,7 +35,7 @@ const Copilot = () => {
                   alt="search icon"
                   width={30}
                   height={30}
-                  className=" rotate-90"
+                  className="cursor-pointer rotate-90"
                 />
               </label>
             </div>
