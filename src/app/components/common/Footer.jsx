@@ -7,6 +7,7 @@ import callTo from "/public/stratman/images/svg/callTo.svg";
 import location from "/public/stratman/images/svg/location.svg";
 import Link from "next/link";
 function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer>
       <div className="xl:max-w-[1164px] px-3 sm:px-5 xl:px-3 mx-auto mt-12 md:mt-[60px] lg:mt-20">
@@ -190,7 +191,7 @@ function Footer() {
       </div>
       <span className="mt-10 h-[1px] flex w-full bg-[#b2b2b2]"></span>
       <p className="text-base text-light-black opacity-70 text-center pt-6 pb-5">
-        © 2024 Stratman AI. All Rights Reserved
+        © {currentYear} Stratman AI. All Rights Reserved
       </p>
     </footer>
   );
