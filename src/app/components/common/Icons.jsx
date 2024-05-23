@@ -23,7 +23,7 @@ export const WhiteStar = ({ svgColor }) => {
   );
 };
 
-export const SemiCollon = () => {
+export const SemiColon = () => {
   return (
     <svg
       className="collen"

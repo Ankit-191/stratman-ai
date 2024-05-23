@@ -69,7 +69,7 @@ const Testimonial = () => {
                 </p>
                 <div className="flex items-center pt-4">
                   <Image
-                    src={obj.Avator}
+                    src={obj.Avatar}
                     alt="Avator"
                     height={56}
                     width={56}
