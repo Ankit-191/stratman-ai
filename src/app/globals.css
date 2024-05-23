@@ -20,7 +20,9 @@ body {
 .swiper-slide-active .swiper-card {
   background: linear-gradient(180deg, #0071bc 0%, #58b9f9 100%);
 }
-
+.swiper-slide-active p {
+  opacity: 1 !important;
+}
 .swiper-slide-active p {
   color: white;
 }
