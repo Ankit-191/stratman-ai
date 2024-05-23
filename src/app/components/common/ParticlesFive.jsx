@@ -25,7 +25,7 @@ const ParticlesFive = () => {
     let particles = [];
 
     p5.setup = () => {
-      p5.createCanvas(p5.windowWidth, 409); // Set the height to 409px
+      p5.createCanvas(p5.windowWidth, p5.windowHeight); 
       p5.noStroke();
       p5.fill(255, 255, 255, 50);
       // Create particles and set their initial properties
@@ -82,7 +82,7 @@ const ParticlesFive = () => {
     }
   };
 
-  return <div ref={canvasRef} style={{ width: "100%" }} />;
+  return <div ref={canvasRef} style={{ width: "100%", height: "100%" }} />;
 };
 
 const useParticlesCount = () => {
