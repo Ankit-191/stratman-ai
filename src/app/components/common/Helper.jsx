@@ -123,3 +123,56 @@ export const FaqsList = [
     title: "Can I customize the charts and data views?",
   },
 ];
+
+//  PRICING LIST
+
+export const PricingData = [
+  {
+    name: "FinChat",
+    features: [
+      { name: "Affordable Pricing", available: true },
+      { name: "Copilot", available: true },
+      { name: "Custom charts", available: true },
+      { name: "SEC filing summaries", available: true },
+      { name: "Web search integration", available: false },
+      { name: "Technical analysis copilot", available: false },
+      { name: "Google trends simulations", available: false },
+      { name: "Hotkeys for common tasks", available: false },
+      { name: "10 second response time", available: false },
+      { name: "Insider trading reports", available: true },
+      { name: "Analyst ratings and projections", available: true },
+    ],
+  },
+  {
+    name: "Stratman AI",
+    features: [
+      { name: "Affordable Pricing", available: true },
+      { name: "Copilot", available: true },
+      { name: "Custom charts", available: true },
+      { name: "SEC filing summaries", available: true },
+      { name: "Web search integration", available: true },
+      { name: "Technical analysis copilot", available: true },
+      { name: "Google trends simulations", available: true },
+      { name: "Hotkeys for common tasks", available: true },
+      { name: "10 second response time", available: true },
+      { name: "Insider trading reports", available: true },
+      { name: "Analyst ratings and projections", available: true },
+    ],
+  },
+  {
+    name: "Borea",
+    features: [
+      { name: "Affordable Pricing", available: true },
+      { name: "Copilot", available: true },
+      { name: "Custom charts", available: true },
+      { name: "SEC filing summaries", available: false },
+      { name: "Web search integration", available: false },
+      { name: "Technical analysis copilot", available: false },
+      { name: "Google trends simulations", available: false },
+      { name: "Hotkeys for common tasks", available: false },
+      { name: "10 second response time", available: true },
+      { name: "Insider trading reports", available: false },
+      { name: "Analyst ratings and projections", available: false },
+    ],
+  },
+];
