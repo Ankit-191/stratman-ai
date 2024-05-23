@@ -14,7 +14,7 @@ import CustomTags from "../common/startman/custom-ui/CustomTags";
 const Testinomial = () => {
   return (
     <div
-      className="bg-blue-image bg-cover bg-center mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] py-[50px] sm:py-[80px] pb-[90px] lg:py-[100px]"
+      className="bg-blue-image bg-cover bg-center mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] pt-12 lg:pt-[100px] pb-[100px] lg:pb-[150px] xl:pb-[100px]"
       id="testimonials"
     >
       <div className="container max-w-[1164px] mx-auto px-3 relative">
@@ -26,10 +26,10 @@ const Testinomial = () => {
           />
         </div>
         <h2 className="font-anek font-semibold text-light-white text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl !leading-[120%] pt-5">
-          Trusted <span className="font-extralight">investors &</span>
+          Trusted <span className="font-extralight">investors & </span>
           <span className="text-blue">organizations</span>
         </h2>
-        <p className="text-light-white text-sm sm:font-base !leading-[150%] max-w-[812px] text-center mx-auto pb-4 sm:pb-6 md:pb-9 lg:pb-[60px]">
+        <p className="text-light-white text-sm sm:font-base !leading-[150%] max-w-[812px] text-center mx-auto pb-8 lg:pb-[60px] pt-3">
           Our AI-powered platform offers comprehensive features, including
           real-time financial data, customized charts, market trend analysis,
           and access to SEC filings.{" "}
@@ -38,7 +38,7 @@ const Testinomial = () => {
           spaceBetween={24}
           slidesPerView={1}
           centeredSlides={true}
-          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          // autoplay={{ delay: 3000, disableOnInteraction: false }}
           loop={true}
           pagination={{
             el: ".swiper-pagination",
@@ -90,10 +90,10 @@ const Testinomial = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="prev absolute bottom-[-13%] sm:bottom-[-15%]  xl:bottom-[25%] left-[30%] xl:left-[-50px]">
+        <div className="prev absolute bottom-[-13%] sm:bottom-[-15%]  xl:bottom-[25%] left-[50%] -translate-x-16 xl:translate-x-0 xl:left-[-3%] x12:left-[-5%]">
           <LeftSwiperArrow />
         </div>
-        <div className="next absolute bottom-[-13%] sm:bottom-[-15%]  xl:bottom-[25%] right-[30%] xl:right-[-50px]">
+        <div className="next absolute bottom-[-13%] sm:bottom-[-15%]  xl:bottom-[25%] right-[50%] translate-x-16 xl:translate-x-0 xl:right-[-3%] x12:right-[-5%]">
           <RightSwiperArrow />
         </div>
       </div>

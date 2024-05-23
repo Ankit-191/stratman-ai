@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        'x12': '1350px',
+      },
       fontFamily: {
         anek: ["'Anek Telugu', sans-serif"],
       },

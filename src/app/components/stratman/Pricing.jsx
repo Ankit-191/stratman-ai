@@ -20,7 +20,7 @@ const Pricing = () => {
       </h2>
 
       <div className="flex flex-row flex-wrap justify-center -mx-3 mt-6 md:mt-12 pt-3">
-        <div className="sm:w-6/12 lg:w-4/12 px-3">
+        <div className=" w-full max-w-[400px] sm:w-6/12 lg:w-4/12 px-3">
           <div className="bg-light-blue pricing-gradiant transition-all duration-200 rounded-[16px] py-6 xl:py-8 px-5 xl:px-6 group">
             <h4 className="text-black duration-200 transition-all price_heading !leading-full  font-semibold font-anek text-[32px] border-b border-[#0A0A0A]/10 group-hover:border-white/10">
               FinChat
@@ -95,7 +95,7 @@ const Pricing = () => {
             </ul>
           </div>
         </div>
-        <div className="sm:w-6/12 lg:w-4/12 sm:pt-0 pt-6 px-3">
+        <div className="w-full max-w-[400px] sm:w-6/12 lg:w-4/12 sm:pt-0 pt-6 px-3">
           <div className="bg-light-blue pricing-gradiant transition-all duration-200 rounded-[16px] py-6 xl:py-8 px-5 xl:px-6 group">
             <h4 className="text-black duration-200 transition-all  !leading-full price_heading  font-semibold font-anek text-[32px] border-b border-[#0A0A0A]/10 group-hover:border-white/10">
               Stratman AI
@@ -170,7 +170,7 @@ const Pricing = () => {
             </ul>
           </div>
         </div>
-        <div className="sm:w-6/12 lg:pt-0 pt-6 lg:w-4/12 px-3">
+        <div className="w-full max-w-[400px] sm:w-6/12 lg:pt-0 pt-6 lg:w-4/12 px-3">
           <div className="bg-light-blue pricing-gradiant transition-all duration-200 rounded-[16px] py-6 xl:py-8 px-5 xl:px-6 group">
             <h4 className="text-black duration-200 transition-all  !leading-full price_heading font-semibold font-anek text-[32px] border-b border-[#0A0A0A]/10 group-hover:border-white/10">
               Borea
