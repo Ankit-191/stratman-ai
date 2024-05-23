@@ -4,7 +4,10 @@ import { CustomersList } from "../common/Helper";
 const Customers = () => {
   return (
     <>
-      <div className="container max-w-[1164px] mx-auto pt-[50px] sm:pt-[80px] lg:pt-[60px] px-3">
+      <div
+        className="container max-w-[1164px] mx-auto pt-[50px] sm:pt-[80px] lg:pt-[60px] px-3"
+        id="home"
+      >
         <div className="flex flex-wrap justify-between px-3 xl:px-9 items-center">
           {CustomersList.map((obj, index) => {
             return (
