@@ -7,7 +7,7 @@ const Dashboard = () => {
     <>
       <div className="bg-box-image bg-repeat bg-cover bg-center bg-dark-black mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] relative overflow-hidden">
         <div className="absolute top-0 w-full h-full z-10">
-          <ParticlesFive />
+          {/* <ParticlesFive /> */}
         </div>
         <div className="relative z-20">
           <div className="container max-w-[1164px] mx-auto px-3">

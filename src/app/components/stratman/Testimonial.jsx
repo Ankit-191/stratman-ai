@@ -20,7 +20,7 @@ const Testimonial = () => {
       id="testimonials"
     >
       <div className="absolute top-0 w-full h-full z-10">
-        <ParticlesFive />
+        {/* <ParticlesFive /> */}
       </div>
       <div className="relative z-20">
         <div className="container max-w-[1164px] mx-auto px-3 relative">
