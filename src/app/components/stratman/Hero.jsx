@@ -2,10 +2,14 @@ import Image from "next/image";
 import Navigation from "../common/Navigation";
 import searchIcon from "/public/stratman/images/svg/search-icon.svg";
 import CustomTags from "../common/startman/custom-ui/CustomTags";
+import ParticlesFive from "../common/ParticlesFive";
 export default function Hero() {
   return (
-    <>
-      <div className="flex flex-col bg-box-image bg-repeat bg-cover bg-center bg-dark-black lg:h-[calc(100vh-40px)] max-2xl:h-[unset] md:mx-5 md:mt-5 mx-3 mt-3 rounded-[16px] sm:rounded-[25px] lg:rounded-[32px] xl:rounded-[40px] ">
+    <div className="relative bg-box-image bg-repeat bg-cover bg-center overflow-hidden bg-dark-black md:mx-5 md:mt-5 mx-3 mt-3 rounded-[16px] sm:rounded-[25px] lg:rounded-[32px] xl:rounded-[40px]">
+      <div className="absolute top-0 w-full h-full z-10">
+        <ParticlesFive />
+      </div>
+      <div className="flex flex-col lg:h-[calc(100vh-40px)] max-2xl:h-[unset] relative z-30">
         <Navigation />
         <div className="container max-w-[1164px] mx-auto px-3 grow max-2xl:py-[230px]">
           <div className="flex text-center flex-col justify-center items-center h-full pt-16 pb-20 lg:py-0">
@@ -25,7 +29,8 @@ export default function Hero() {
               revolutionize your investment journey.
             </p>
             <div className="bg-light-gray flex items-center mt-6 sm:mt-8 lg:mt-10 w-full sm:px-[27px] px-5 py-2.5 sm:py-4 rounded-full max-w-[747px]">
-              <input id="search"
+              <input
+                id="search"
                 type="text"
                 placeholder="Search ideas for your investment..."
                 className="text-light-white text-base opacity-80 pe-4 outline-none placeholder:opacity-80 placeholder:text-light-white placeholder:text-base bg-transparent w-full"
@@ -43,6 +48,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
