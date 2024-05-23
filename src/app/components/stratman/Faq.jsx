@@ -13,7 +13,7 @@ const Faq = () => {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
   return (
     <>
-      <div className="max-w-[1164px] px-3 mx-auto py-[50px] sm:py-[80px] xl:py-[140px]">
+      <div className="max-w-[1164px] px-3 sm:px-5 mx-auto py-[50px] sm:py-[80px] xl:py-[140px]">
         <div className="flex justify-center">
           <CustomTags
             title="FAQ’s"
