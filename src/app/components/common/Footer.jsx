@@ -190,7 +190,7 @@ function Footer() {
         </div>
       </div>
       <span className="mt-10 h-[1px] flex w-full bg-[#b2b2b2]"></span>
-      <p className="text-base text-light-black opacity-70 text-center pt-6 pb-5">
+      <p className="text-sm md:text-base text-light-black opacity-70 text-center py-3 md:pt-6 md:pb-5">
         © {currentYear} Stratman AI. All Rights Reserved
       </p>
     </footer>
