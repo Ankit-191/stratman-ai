@@ -36,7 +36,7 @@ export default function Navigation() {
             />
           </Link>
           <ul
-            className={`flex gap-8 flex-col lg:flex-row text-center lg:text-start absolute z-[9] opacity-70 lg:sticky w-full lg:w-auto bg-black lg:bg-transparent start-[-100%] top-0 h-screen lg:h-auto justify-center transition-all duration-300 ease-in-out ${
+            className={`flex gap-8 flex-col lg:flex-row text-center lg:text-start absolute z-[9] lg:sticky w-full lg:w-auto bg-black lg:bg-transparent start-[-100%] top-0 h-screen lg:h-auto justify-center transition-all duration-300 ease-in-out ${
               handleNav ? "!start-0" : ""
             }`}
           >

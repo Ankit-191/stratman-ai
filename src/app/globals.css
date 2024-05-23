@@ -4,7 +4,7 @@ html,
 body {
   font-family: "Open Sans", sans-serif !important;
   scroll-behavior: smooth !important;
-  overflow-x:hidden !important ;
+  /* overflow-x:hidden !important ; */
 }
 /* SLIDER CSS START HERE */
 .swiper-pagination {
