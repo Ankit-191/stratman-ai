@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useState } from "react";
-import { FiChevronsUp } from "react-icons/fi";
+import { TopArrow } from "./Icons";
 
 const BackToTop = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -36,11 +36,11 @@ const BackToTop = () => {
         // Back to Top button with fixed position at bottom right
         <button
             className={`${isVisible ? "opacity-100" : "opacity-0"
-                } fixed bottom-0 m-4 p-2 right-0 bg-blue-linear-gradient text-white rounded-full transition-all ease-in-out duration-300 z-50 border border-white hover:shadow-[0px_0px_20px_4px] hover:shadow-blue `}
+                } fixed bottom-0 m-4 w-10 h-10 flex items-center justify-center right-0 bg-blue-linear-gradient text-white rounded-full transition-all ease-in-out duration-300 z-50 border border-white hover:shadow-[0px_0px_20px_4px] hover:shadow-blue `}
             onClick={scrollToTop}
             aria-label="Back to Top"
         >
-            <FiChevronsUp className="h-6 w-6" />
+            <TopArrow className="h-6 w-6" />
         </button>
     );
 };
