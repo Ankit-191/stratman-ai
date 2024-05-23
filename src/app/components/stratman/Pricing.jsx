@@ -12,7 +12,7 @@ const Pricing = () => {
       <div className="text-center">
         <CustomTags
           title="PRICING"
-          parentClassName="inline-flex px-[38.5px]"
+          parentClassName="inline-flex md:px-[38.5px]"
           svgColor="#0071BC"
         />
       </div>

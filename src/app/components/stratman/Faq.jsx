@@ -18,7 +18,7 @@ const Faq = () => {
           <CustomTags
             title="FAQ’s"
             svgColor="#0071BC"
-            parentClassName="inline-flex px-8 sm:px-[46px]"
+            parentClassName="inline-flex px-8 md:px-[46px]"
           />
         </div>
         <h2 className="font-semibold font-anek text-center text-3xl sm:text-4xl md:text-6xl mb-6 sm:mb-9 lg:mb-12 mt-3 sm:mt-5">
@@ -30,14 +30,14 @@ const Faq = () => {
             <Accordion
               key={index}
               open={open === index}
-              // icon={<FaqArrow id={index} open={open} />}
+              icon={<FaqArrow id={index} open={open} />}
               className={`max-w-[840px] mx-auto bg-light-blue py-3 sm:py-4 px-4 sm:px-6 rounded-[12px] ${
                 index === 4 ? "mb-0" : "mb-4 sm:mb-6"
               }`}
             >
               <AccordionHeader
                 onClick={() => handleOpen(index)}
-                className="font-medium font-anek text-lg sm:text-xl !leading-[150%] text-light-black border-b-0 py-0 flex justify-between text-start"
+                className="font-medium font-anek text-lg sm:text-xl !leading-[130%] md:!leading-[150%] text-light-black border-b-0 py-0 flex justify-between text-start"
               >
                 {obj.title}
               </AccordionHeader>

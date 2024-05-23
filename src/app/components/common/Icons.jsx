@@ -2,6 +2,7 @@
 export const WhiteStar = ({ svgColor }) => {
   return (
     <svg
+    className="w-[18px] md:w-[23px] h-5 md:h-[25px]"
       width="23"
       height="25"
       viewBox="0 0 23 25"

@@ -10,14 +10,14 @@ const Trends = () => {
         <div className="py-[50px] sm:py-[80px] xl:pt-[160px] xl:pb-[100px] text-center lg:text-start w-full md:w-full lg:w-auto mx-auto" id="features">
           <CustomTags
             title="features"
-            parentClassName="inline-flex px-[31.5px]"
+            parentClassName="inline-flex md:px-[31.5px]"
             svgColor="#0071BC"
           />
           <h2 className="font-anek text-[32px] sm:text-6xl mt-4 sm:mt-5 mb-3 !leading-[120%] text-light-black font-extralight">
             <span className="font-semibold">Stratman AI </span> helps Achieve{" "}
             <span className="font-semibold text-blue">Your Goals</span>
           </h2>
-          <p className="text-base text-light-black opacity-70 max-w-[740px]">
+          <p className="text-sm md:text-base !leading-[150%] text-light-black opacity-70 max-w-[740px]">
             Our AI-powered platform offers comprehensive features, including
             real-time financial data, customized charts, market trend analysis,
             and access to SEC filings.

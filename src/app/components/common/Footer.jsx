@@ -21,7 +21,7 @@ function Footer() {
                 alt="footerlogo"
               />
             </Link>
-            <p className="pt-4 text-base text-light-black sm:max-w-[470px] lg:max-w-[334px] opacity-70">
+            <p className="pt-4 text-sm md:text-base !leading-[150%] text-light-black sm:max-w-[470px] lg:max-w-[334px] opacity-70">
               Stratman AI is dedicated to empowering investors with advanced
               AI-driven tools and insights. Our platform provide financial data.
             </p>
@@ -60,7 +60,7 @@ function Footer() {
             </div>
           </div>
           <div className="flex flex-wrap gap-7 mt-6 lg:mt-0 xl:gap-[55px] items-start">
-            <ul className="ps-0">
+            <ul className="ps-0 w-24 sm:w-[unset]">
               <p className="text-light-black pb-1 font-anek font-semibold text-base">
                 Company
               </p>
@@ -118,7 +118,7 @@ function Footer() {
                 </Link>
               </li>
             </ul>
-            <ul className="ps-0">
+            <ul className="ps-0 w-24 sm:w-[unset]">
               <p className="text-light-black pb-1 font-anek font-semibold text-base">
                 Examples
               </p>

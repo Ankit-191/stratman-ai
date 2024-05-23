@@ -27,7 +27,7 @@ const Testimonial = () => {
           <div className="text-center">
             <CustomTags
               title="testimonials"
-              parentClassName="inline-flex px-[27.5px]"
+              parentClassName="inline-flex md:px-[27.5px]"
               svgColor="#0071BC"
             />
           </div>
@@ -69,7 +69,7 @@ const Testimonial = () => {
           >
             {organizationData.map((obj, index) => (
               <SwiperSlide key={index}>
-                <div className="bg-dark-blue md:max-w-[364px] rounded-[14px] pb-0 p-3 sm:p-6 swiper-card min-h-[212px] sm:min-h-[252px] h-full">
+                <div className="bg-dark-blue md:max-w-[364px] rounded-[14px] pb-0 p-4 sm:p-6 swiper-card min-h-[212px] sm:min-h-[252px] h-full">
                   <p className="sm:text-base text-sm text-light-black border-b-[2px] border-[#BBD5E7] pb-2 sm:pb-4 !leading-[150%] min-h-[120px] sm:min-h-[137px] testimonials_slider opacity-70">
                     {obj.Para}
                   </p>

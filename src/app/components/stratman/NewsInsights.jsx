@@ -18,7 +18,7 @@ const NewsInsights = () => {
           <div className="text-center">
             <CustomTags
               title="News & Insights"
-              parentClassName="inline-flex px-[27.5px]"
+              parentClassName="inline-flex md:px-[27.5px]"
               svgColor="#0071BC"
             />
           </div>
@@ -27,7 +27,7 @@ const NewsInsights = () => {
             <span className="text-blue"> Insights</span>
           </h2>
 
-          <p className="text-light-white text-base opacity-70 sm:font-base !leading-[150%] pt-3 max-w-[625px] text-center mx-auto ">
+          <p className="text-light-white text-sm md:text-base opacity-70 sm:font-base !leading-[150%] pt-3 max-w-[625px] text-center mx-auto ">
             Stay informed and ahead of the curve with the latest trends, tips,
             and insights in video ad creation and social media marketing.
           </p>
@@ -48,7 +48,7 @@ const NewsInsights = () => {
                 markets.
               </p>
               <Link
-                className="border-dark-black group gap-[12px] flex items-center news_read border-b-[1.5px] text-dark-black pt-1 sm:pt-5"
+                className="border-dark-black group gap-[12px] flex items-center news_read border-b-[1.5px] text-dark-black pt-1 sm:pt-5 !leading-[150%] text-sm md:text-base"
                 href="#"
               >
                 Read More
@@ -70,7 +70,7 @@ const NewsInsights = () => {
                 than ever to have accurate forecasting.
               </p>
               <Link
-                className="border-dark-black group flex items-center gap-4 news_read border-b-[1.5px] text-dark-black pt-1 sm:pt-5"
+                className="border-dark-black group !leading-[150%] text-sm md:text-base flex items-center gap-4 news_read border-b-[1.5px] text-dark-black pt-1 sm:pt-5"
                 href="#"
               >
                 Read More
