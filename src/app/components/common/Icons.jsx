@@ -1,3 +1,4 @@
+// CUSTOM TAGS STAR
 export const WhiteStar = ({ svgColor }) => {
   return (
     <svg
@@ -41,7 +42,7 @@ export const SemiColon = () => {
     </svg>
   );
 };
-
+// SLIDER ARROWS
 export const LeftSwiperArrow = () => {
   return (
     <svg
@@ -100,6 +101,7 @@ export const RightSwiperArrow = () => {
   );
 };
 
+// PRICING ICON
 export const RightIcon = () => {
   return (
     <>
@@ -120,7 +122,6 @@ export const RightIcon = () => {
     </>
   );
 };
-
 export const CrossIcon = () => {
   return (
     <>
@@ -274,6 +275,7 @@ export const Twitter = () => {
     </svg>
   );
 };
+// FAQ ARROW ARROW
 export const FaqArrow = ({ id, open }) => {
   return (
     <svg
@@ -282,8 +284,9 @@ export const FaqArrow = ({ id, open }) => {
       viewBox="0 0 19 12"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className={`${id === open ? "rotate-180" : ""
-        } w-4 h-4 md:h-5 md:w-5 transition-transform ms-3`}
+      className={`${
+        id === open ? "rotate-180" : ""
+      } w-4 h-4 md:h-5 md:w-5 transition-transform ms-3`}
     >
       <path
         d="M2.89125 0.509098C2.23875 -0.165902 1.15875 -0.165901 0.506249 0.486599C-0.16875 1.1616 -0.16875 2.2191 0.506249 2.8716L8.31374 10.7241C8.62874 11.0391 9.05624 11.2191 9.50624 11.2191C9.95623 11.2191 10.3837 11.0391 10.6987 10.7241L18.5062 2.8716C18.8437 2.5566 19.0012 2.1291 19.0012 1.7016C19.0012 1.2516 18.8437 0.824099 18.5062 0.486599C17.8312 -0.165901 16.7737 -0.165902 16.1212 0.509098L9.50624 7.1466L2.89125 0.509098Z"
@@ -296,7 +299,7 @@ export const FaqArrow = ({ id, open }) => {
 export const TopArrow = () => {
   return (
     <svg
-    className="rotate-180"
+      className="rotate-180"
       width="19"
       height="12"
       viewBox="0 0 19 12"
