@@ -5,7 +5,7 @@ import CustomTags from "../common/startman/custom-ui/CustomTags";
 import ParticlesFive from "../common/ParticlesFive";
 export default function Hero() {
   return (
-    <div className="relative bg-box-image bg-repeat bg-cover bg-center overflow-hidden bg-dark-black md:mx-5 md:mt-5 mx-3 mt-3 rounded-[16px] sm:rounded-[25px] lg:rounded-[32px] xl:rounded-[40px]">
+    <div className="relative bg-box-image bg-repeat bg-cover bg-center overflow-hidden bg-dark-black md:mx-5 md:mt-5 mx-3 mt-3 rounded-[16px] sm:rounded-[25px] lg:rounded-[32px] xl:rounded-[40px] overflow-hidden">
       <div className="absolute top-0 w-full h-full z-10">
         <ParticlesFive />
       </div>
