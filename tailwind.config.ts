@@ -30,6 +30,8 @@ const config: Config = {
       backgroundImage: {
         "hero-image":
           "url('../../public/stratman/images/webp/hero-bg-image.webp')",
+        "box-image":
+          "url('../../public/stratman/images/svg/bg-box.svg')",
         "blue-image":
           "url('../../public/stratman/images/png/background-blue-image.png')",
         "blue-linear-gradient":
