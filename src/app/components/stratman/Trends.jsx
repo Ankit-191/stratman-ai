@@ -1,7 +1,7 @@
 import React from "react";
 import Content from "../common/startman/reusable-content/Content";
 import CustomTags from "../common/startman/custom-ui/CustomTags";
-import trendsData from "/public/stratman/images/png/trends-data.png";
+import trendsData from "/public/stratman/images/webp/trends-data.webp";
 import Image from "next/image";
 const Trends = () => {
   return (

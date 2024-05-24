@@ -3,17 +3,11 @@ import BubblesAnimation from "../common/BubblesAnimation";
 import Navigation from "../common/Navigation";
 import CustomTags from "../common/startman/custom-ui/CustomTags";
 import searchIcon from "/public/stratman/images/svg/search-icon.svg";
-import blurImage from "../../../../public/stratman/images/png/hero-blur-image.png";
 export default function Hero() {
   return (
     <div className="relative bg-box-image bg-repeat bg-cover bg-center bg-dark-black md:mx-5 md:mt-5 mx-3 mt-3 rounded-[16px] sm:rounded-[25px] lg:rounded-[32px] xl:rounded-[40px] overflow-hidden">
-      <Image
-        src={blurImage}
-        alt="blur-image"
-        width={910}
-        height={572}
-        className="absolute start-1/2 -translate-x-1/2 w-[710px] h-[472px] md:h-[572px] md:w-[910px]"
-      />
+      < div className="absolute start-1/2 -translate-x-1/2 w-[210px] h-[210px] bg-blue blur-[150px]">
+      </div>
       <div className="absolute top-0 w-full h-full z-10">
         <BubblesAnimation />
       </div>

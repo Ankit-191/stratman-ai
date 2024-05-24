@@ -1,9 +1,9 @@
 import React from "react";
 import Content from "../common/startman/reusable-content/Content";
 import chartOne from "/public/stratman/images/png/chart-one.png";
-import chartTwo from "/public/stratman/images/png/chart-two.png";
-import chartThree from "/public/stratman/images/png/chart-three.png";
-import chartFour from "/public/stratman/images/png/chart-four.png";
+import chartTwo from "/public/stratman/images/webp/chart-two.webp";
+import chartThree from "/public/stratman/images/webp/chart-three.webp";
+import chartFour from "/public/stratman/images/webp/chart-four.webp";
 import Image from "next/image";
 const ChartAnalysis = () => {
   return (

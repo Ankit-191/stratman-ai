@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Content from "../common/startman/reusable-content/Content";
-import dashboardImage from "/public/stratman/images/png/dashboard-image.png";
+import dashboardImage from "/public/stratman/images/webp/dashboard-image.webp";
 const Dashboard = () => {
   return (
     <>
