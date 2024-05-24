@@ -12,7 +12,7 @@ const Copilot = () => {
       <div className="flex flex-wrap justify-center lg:justify-between items-center pb-[50px] sm:pb-[80px] xl:pb-[140px]">
         <div className="w-full md:w-9/12 lg:w-6/12 text-center lg:text-start">
           <div className="bg-light-blue rounded-[14px] sm:px-[30px] p-4 sm:py-[27px] inline-block">
-            <Image src={copilot} alt="trend data" width={452} height={185} />
+            <Image src={copilot} alt="trend-data" width={452} height={185} className="min-h-[108px]"/>
             <div className="flex justify-between flex-wrap md:px-10 mt-2 md:mt-6">
               {CopilotList.map((obj, index) => {
                 const isActive = index === activeTab;
@@ -44,7 +44,7 @@ const Copilot = () => {
                   alt="search icon"
                   width={30}
                   height={30}
-                  className="cursor-pointer rotate-90 min-h-[108px]"
+                  className="cursor-pointer rotate-90 "
                 />
               </label>
             </div>
