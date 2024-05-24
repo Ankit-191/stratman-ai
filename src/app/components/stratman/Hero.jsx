@@ -9,8 +9,10 @@ export default function Hero() {
     <div className="relative bg-box-image bg-repeat bg-cover bg-center bg-dark-black md:mx-5 md:mt-5 mx-3 mt-3 rounded-[16px] sm:rounded-[25px] lg:rounded-[32px] xl:rounded-[40px] overflow-hidden">
       <Image
         src={blurImage}
-        alt="blurImage"
-        className="absolute start-1/2 -translate-x-1/2"
+        alt="blur-image"
+        width={910}
+        height={572}
+        className="absolute start-1/2 -translate-x-1/2 w-[710px] h-[472px] md:h-[572px] md:w-[910px]"
       />
       <div className="absolute top-0 w-full h-full z-10">
         <BubblesAnimation />

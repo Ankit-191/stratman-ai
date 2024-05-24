@@ -11,10 +11,10 @@ const Dashboard = () => {
               <div className="inline-flex">
                 <Image
                   src={dashboardImage}
-                  alt="dashboard image"
+                  alt="dashboard-image"
                   width={567}
                   height={372}
-                  className=""
+                  className="min-h-[178px]"
                 />
               </div>
             </div>

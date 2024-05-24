@@ -22,19 +22,19 @@ const ChartAnalysis = () => {
               <div className="px-1 sm:px-2 pb-1 sm:pb-2">
                 <Image
                   src={chartOne}
-                  alt="chart"
+                  alt="chart-up"
                   width={224}
                   height={177}
-                  className="rounded-[12px]"
+                  className="rounded-[12px] min-h-[104px]"
                 />
               </div>
               <div className="px-1 sm:px-2 pt-1 sm:pt-2">
                 <Image
                   src={chartThree}
-                  alt="chart"
+                  alt="chart-down"
                   width={224}
                   height={177}
-                  className="rounded-[12px]"
+                  className="rounded-[12px] min-h-[104px]"
                 />
               </div>
             </div>
@@ -42,19 +42,19 @@ const ChartAnalysis = () => {
               <div className="px-1 sm:px-2 pb-1 sm:pb-2">
                 <Image
                   src={chartTwo}
-                  alt="chart"
+                  alt="chart-left"
                   width={224}
                   height={177}
-                  className="rounded-[12px]"
+                  className="rounded-[12px] min-h-[104px]"
                 />
               </div>
               <div className="px-1 sm:px-2 pt-1 sm:pt-2">
                 <Image
                   src={chartFour}
-                  alt="chart"
+                  alt="chart-right"
                   width={224}
                   height={177}
-                  className="rounded-[12px]"
+                  className="rounded-[12px] min-h-[104px]"
                 />
               </div>
             </div>

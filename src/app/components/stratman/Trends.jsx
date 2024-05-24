@@ -7,7 +7,10 @@ const Trends = () => {
   return (
     <>
       <div className="max-w-[1164px] mx-auto px-3 sm:px-5 relative z-10">
-        <div className="py-[50px] sm:py-[80px] xl:pt-[160px] xl:pb-[100px] text-center lg:text-start w-full md:w-full lg:w-auto mx-auto" id="features">
+        <div
+          className="py-[50px] sm:py-[80px] xl:pt-[160px] xl:pb-[100px] text-center lg:text-start w-full md:w-full lg:w-auto mx-auto"
+          id="features"
+        >
           <CustomTags
             title="features"
             parentClassName="inline-flex md:px-[31.5px]"
@@ -28,9 +31,10 @@ const Trends = () => {
             <div className="bg-light-blue rounded-[14px] pe-5 xl:ps-[5px] sm:pe-[31px] pb-5 sm:pb-[27px] inline-block">
               <Image
                 src={trendsData}
-                alt="trend data"
+                alt="trend-data"
                 width={450}
                 height={286}
+                className="min-h-[175px]"
               />
             </div>
           </div>

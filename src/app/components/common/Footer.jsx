@@ -15,7 +15,7 @@ function Footer() {
           <div className="flex flex-col">
             <Link href="/" rel="noopener noreferrer">
               <Image
-              className="w-[113px] h-[77px]"
+                className="w-[113px] h-[77px]"
                 width={113}
                 height={77}
                 src={footerLogo}
@@ -29,9 +29,9 @@ function Footer() {
             <p className="pt-6 font-anek font-semibold text-sm md:text-base text-dark-black">
               Follow Us
             </p>
-            <div className="flex pt-4 gap-3">
+            <div className="flex items-center pt-4 gap-3">
               <Link
-                className="hover:scale-110 duration-300"
+                className="hover:scale-110 duration-300 transition-all ease-in-out"
                 href="https://www.linkedin.com/ "
                 target="_blank"
                 rel="noopener noreferrer"
@@ -39,7 +39,7 @@ function Footer() {
                 <LinkedIn />
               </Link>
               <Link
-                className="hover:scale-110 duration-300"
+                className="hover:scale-110 duration-300 transition-all ease-in-out"
                 href="https://www.instagram.com/ "
                 target="_blank"
                 rel="noopener noreferrer"
@@ -47,7 +47,7 @@ function Footer() {
                 <Instagram />
               </Link>
               <Link
-                className="hover:scale-110 duration-300"
+                className="hover:scale-110 duration-300 transition-all ease-in-out"
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -55,7 +55,7 @@ function Footer() {
                 <Facebook />
               </Link>
               <Link
-                className="hover:scale-110 duration-300"
+                className="hover:scale-110 duration-300 transition-all ease-in-out"
                 href="https://x.com/"
                 target="_blank"
                 rel="noopener noreferrer"

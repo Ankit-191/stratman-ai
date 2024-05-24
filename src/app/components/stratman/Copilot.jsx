@@ -1,5 +1,5 @@
-"use client"
-import { useState } from 'react';
+"use client";
+import { useState } from "react";
 import Image from "next/image";
 import Content from "../common/startman/reusable-content/Content";
 import copilot from "/public/stratman/images/png/copilot.png";
@@ -18,10 +18,11 @@ const Copilot = () => {
                 const isActive = index === activeTab;
                 return (
                   <button
-                    className={`text-xs max-[410px]:w-5/12 mt-2 rounded-full py-[7px] px-4 transition-all duration-300 ease-in-out ${isActive
-                        ? 'text-light-white bg-dark-black'
-                        : 'text-black hover:text-light-white hover:bg-dark-black'
-                      }`}
+                    className={`text-xs max-[410px]:w-5/12 mt-2 rounded-full py-[7px] px-4 transition-all duration-300 ease-in-out ${
+                      isActive
+                        ? "text-light-white bg-dark-black"
+                        : "text-black hover:text-light-white hover:bg-dark-black"
+                    }`}
                     key={index}
                     onClick={() => setActiveTab(index)}
                   >
@@ -43,7 +44,7 @@ const Copilot = () => {
                   alt="search icon"
                   width={30}
                   height={30}
-                  className="cursor-pointer rotate-90"
+                  className="cursor-pointer rotate-90 min-h-[108px]"
                 />
               </label>
             </div>
