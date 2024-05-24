@@ -25,7 +25,7 @@ const ChartAnalysis = () => {
                   alt="chart-up"
                   width={224}
                   height={177}
-                  className="rounded-[12px] min-h-[104px]"
+                  className="rounded-[12px] min-h-[104px] "
                 />
               </div>
               <div className="px-1 sm:px-2 pt-1 sm:pt-2">
