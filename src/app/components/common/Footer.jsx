@@ -53,7 +53,7 @@ function Footer() {
               <Link
                 className="hover:scale-110 duration-300"
                 href="https://x.com/ "
-                target="_blank" 
+                target="_blank"
               >
                 <Twitter />
               </Link>
@@ -149,7 +149,7 @@ function Footer() {
                   href="tel:+1234567890"
                 >
                   <Image
-                    className="me-2"
+                    className="me-2 sm:w-[20px] sm:h-[20px] w-[18px] h-[18px]"
                     width={20}
                     height={20}
                     src={callTo}
@@ -164,7 +164,7 @@ function Footer() {
                   href="mailto:123@Stratman AI.Com"
                 >
                   <Image
-                    className="me-2"
+                    className="me-2 sm:w-[20px] sm:h-[16px] w-[18px] h-[14px]"
                     width={20}
                     height={16}
                     src={mailTo}
@@ -176,9 +176,9 @@ function Footer() {
               <li className="pt-2 ms:pt-3">
                 <span className="text-light-black opacity-70 flex hover:text-blue duration-300 text-sm md:text-base">
                   <Image
-                    className="me-2"
-                    width={20}
-                    height={16}
+                    className="me-2 sm:w-[16px] sm:h-[20px] w-[14px] h-[18px]"
+                    width={16}
+                    height={20}
                     src={location}
                     alt="location"
                   />
