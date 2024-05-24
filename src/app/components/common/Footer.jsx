@@ -13,8 +13,9 @@ function Footer() {
       <div className="xl:max-w-[1164px] px-3 sm:px-5 xl:px-3 mx-auto mt-12 md:mt-[60px] lg:mt-20 relative z-10">
         <div className="flex justify-between flex-wrap gap-4 xl:gap-0 lg:flex-nowrap">
           <div className="flex flex-col">
-            <Link href="/">
+            <Link href="/" rel="noopener noreferrer">
               <Image
+              className="w-[113px] h-[77px]"
                 width={113}
                 height={77}
                 src={footerLogo}
@@ -33,6 +34,7 @@ function Footer() {
                 className="hover:scale-110 duration-300"
                 href="https://www.linkedin.com/ "
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <LinkedIn />
               </Link>
@@ -40,20 +42,23 @@ function Footer() {
                 className="hover:scale-110 duration-300"
                 href="https://www.instagram.com/ "
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <Instagram />
               </Link>
               <Link
                 className="hover:scale-110 duration-300"
-                href="https://www.linkedin.com/ "
+                href="https://www.facebook.com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <Facebook />
               </Link>
               <Link
                 className="hover:scale-110 duration-300"
-                href="https://x.com/ "
+                href="https://x.com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <Twitter />
               </Link>
@@ -61,9 +66,9 @@ function Footer() {
           </div>
           <div className="flex flex-wrap justify-between w-full lg:w-[unset] gap-4 md:gap-7 mt-3 lg:mt-0 xl:gap-[55px] items-start">
             <ul className="ps-0 w-24 sm:w-[unset]">
-              <p className="text-light-black pb-1 font-anek font-semibold text-sm md:text-base">
+              <li className="text-light-black pb-1 font-anek font-semibold text-sm md:text-base">
                 Company
-              </p>
+              </li>
               <li className="pt-2 ms:pt-3">
                 <Link
                   className="text-light-black hover:text-blue duration-300 text-sm md:text-base opacity-70"
@@ -98,9 +103,9 @@ function Footer() {
               </li>
             </ul>
             <ul className="ps-0 w-[180px] sm:w-[unset]">
-              <p className="text-light-black pb-1 font-anek font-semibold text-sm md:text-base">
+              <li className="text-light-black pb-1 font-anek font-semibold text-sm md:text-base">
                 Information
-              </p>
+              </li>
               <li className="pt-2 ms:pt-3">
                 <Link
                   className="text-light-black opacity-70 hover:text-blue duration-300 text-sm md:text-base"
@@ -119,9 +124,9 @@ function Footer() {
               </li>
             </ul>
             <ul className="ps-0 w-24 sm:w-[unset]">
-              <p className="text-light-black pb-1 font-anek font-semibold text-sm md:text-base">
+              <li className="text-light-black pb-1 font-anek font-semibold text-sm md:text-base">
                 Examples
-              </p>
+              </li>
               <li className="pt-2 ms:pt-3">
                 <Link
                   className="text-light-black opacity-70 hover:text-blue duration-300 text-sm md:text-base"
@@ -140,9 +145,9 @@ function Footer() {
               </li>
             </ul>
             <ul className="ps-0 w-[180px] sm:w-[unset]">
-              <p className="text-light-black pb-1 mb-1 font-anek font-semibold text-sm md:text-base">
+              <li className="text-light-black pb-1 mb-1 font-anek font-semibold text-sm md:text-base">
                 Contacts
-              </p>
+              </li>
               <li className="pt-2 ms:pt-3">
                 <Link
                   className="text-light-black opacity-70 flex hover:text-blue duration-300 text-sm md:text-base"

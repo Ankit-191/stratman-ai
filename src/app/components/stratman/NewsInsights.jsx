@@ -33,9 +33,9 @@ const NewsInsights = () => {
               alt="analyticsMan"
               src="/stratman/images/webp/analyticsMan.webp"
             />
-            <h6 className="news_heading font-semibold text-blue pt-5 font-anek text-xl lg:text-2xl">
+            <h3 className="news_heading font-semibold text-blue pt-5 font-anek text-xl lg:text-2xl">
               Analytics AI: Why You Need Stratman AI in 2024
-            </h6>
+            </h3>
             <p className="sm:pt-2 news_pera text-sm sm:text-base text-light-black max-w-[518px]">
               Stratman AI uses the newest artificial intelligence (AI) and
               machine learning (ML) technologies to analyze cryptocurrency
@@ -56,9 +56,9 @@ const NewsInsights = () => {
               src="/stratman/images/webp/marketGrooup.webp"
               alt="market"
             />
-            <h6 className="news_heading font-semibold text-blue pt-5 font-anek text-xl lg:text-2xl">
+            <h3 className="news_heading font-semibold text-blue pt-5 font-anek text-xl lg:text-2xl">
               AI Financial Market: Stratman AI Leads the Way
-            </h6>
+            </h3>
             <p className="sm:pt-2 news_pera text-sm sm:text-base text-light-black max-w-[518px]">
               In the current 2024 financial markets, it&apos;s more important
               than ever to have accurate forecasting.

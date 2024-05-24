@@ -25,9 +25,9 @@ const Pricing = () => {
         {PricingData.map((obj, index) => (
           <div key={index} className={`w-full max-w-[400px] sm:w-6/12 lg:w-4/12 px-3  ${index === 1 ? 'mt-6 sm:mt-0' : ''} ${index === 2 ? 'mt-6 lg:mt-0' : ''}`}>
             <div className="bg-light-blue pricing-gradient rounded-[16px] py-6 xl:py-8 px-5 xl:px-6 group">
-              <h4 className="text-black price_heading !leading-full font-semibold font-anek text-[30px] lg:text-[32px] border-b border-[#0A0A0A]/10 group-hover:border-white/10">
+              <h2 className="text-black price_heading !leading-full font-semibold font-anek text-[30px] lg:text-[32px] border-b border-[#0A0A0A]/10 group-hover:border-white/10">
                 {obj.name}
-              </h4>
+              </h2>
               <ul className="mt-6 xl:mt-10">
                 {obj.features.map((feature, subindex) => (
                   <li key={subindex} className={`flex items-center pt-${subindex === 0 ? "0" : "5"}`}>
