@@ -6,7 +6,7 @@ import { PricingData } from "../common/Helper";
 const Pricing = () => {
   return (
     <div
-      className="max-w-[1164px] xl:py-[140px] lg:py-[80px] md:py-20 sm:py-16 py-12 px-3 sm:px-5 mx-auto"
+      className="max-w-[1164px] xl:py-[140px] lg:py-[80px] md:py-20 sm:py-16 py-12 px-3 sm:px-5 mx-auto relative z-10"
       id="pricing"
     >
       <div className="text-center">

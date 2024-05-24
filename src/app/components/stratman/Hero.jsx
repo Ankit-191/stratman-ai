@@ -1,13 +1,19 @@
 import Image from "next/image";
+import BubblesAnimation from "../common/BubblesAnimation";
 import Navigation from "../common/Navigation";
-import searchIcon from "/public/stratman/images/svg/search-icon.svg";
 import CustomTags from "../common/startman/custom-ui/CustomTags";
-import ParticlesFive from "../common/ParticlesFive";
+import searchIcon from "/public/stratman/images/svg/search-icon.svg";
+import blurImage from "../../../../public/stratman/images/png/hero-blur-image.png";
 export default function Hero() {
   return (
     <div className="relative bg-box-image bg-repeat bg-cover bg-center bg-dark-black md:mx-5 md:mt-5 mx-3 mt-3 rounded-[16px] sm:rounded-[25px] lg:rounded-[32px] xl:rounded-[40px] overflow-hidden">
+      <Image
+        src={blurImage}
+        alt="blurImage"
+        className="absolute start-1/2 -translate-x-1/2"
+      />
       <div className="absolute top-0 w-full h-full z-10">
-        <ParticlesFive />
+        <BubblesAnimation />
       </div>
       <div className="flex flex-col lg:h-[calc(100vh-40px)] max-2xl:h-[unset] relative z-30">
         <Navigation />

@@ -7,7 +7,7 @@ import chartFour from "/public/stratman/images/png/chart-four.png";
 import Image from "next/image";
 const ChartAnalysis = () => {
   return (
-    <div className="container max-w-[1164px] mx-auto px-3 sm:px-5">
+    <div className="container max-w-[1164px] mx-auto px-3 sm:px-5 relative z-10">
       <div className="flex flex-col-reverse lg:flex-row flex-wrap justify-center lg:justify-between items-center py-[50px] sm:pt-[120px] sm:pb-[80px] xl:py-[200px]">
         <div className="w-full md:w-full lg:w-6/12 lg:pe-10 xl:pe-24 text-center lg:text-start mt-10 sm:mt-16 lg:mt-0">
           <Content

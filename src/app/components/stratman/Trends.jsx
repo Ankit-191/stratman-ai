@@ -6,7 +6,7 @@ import Image from "next/image";
 const Trends = () => {
   return (
     <>
-      <div className="max-w-[1164px] mx-auto px-3 sm:px-5">
+      <div className="max-w-[1164px] mx-auto px-3 sm:px-5 relative z-10">
         <div className="py-[50px] sm:py-[80px] xl:pt-[160px] xl:pb-[100px] text-center lg:text-start w-full md:w-full lg:w-auto mx-auto" id="features">
           <CustomTags
             title="features"

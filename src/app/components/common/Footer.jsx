@@ -10,7 +10,7 @@ function Footer() {
   const currentYear = new Date().getFullYear();
   return (
     <footer>
-      <div className="xl:max-w-[1164px] px-3 sm:px-5 xl:px-3 mx-auto mt-12 md:mt-[60px] lg:mt-20">
+      <div className="xl:max-w-[1164px] px-3 sm:px-5 xl:px-3 mx-auto mt-12 md:mt-[60px] lg:mt-20 relative z-10">
         <div className="flex justify-between flex-wrap gap-4 xl:gap-0 lg:flex-nowrap">
           <div className="flex flex-col">
             <Link href="/">

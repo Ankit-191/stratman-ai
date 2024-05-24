@@ -1,13 +1,8 @@
-import React from "react";
 import CustomButton from "../common/startman/custom-ui/CustomButton";
-import ParticlesFive from "../common/ParticlesFive"
 const Discover = () => {
   return (
     <div className="relative bg-dark-black rounded-[16px] mx-3 sm:mx-5 xl:px-0   py-[50px] sm:py-[80px] lg:py-[100px]  sm:rounded-[25px] lg:rounded-[32px] xl:rounded-[40px] bg-box-image  bg-repeat bg-cover bg-center px-3 overflow-hidden">
-      <div className="absolute top-0 w-full h-full z-10">
-        <ParticlesFive />
-      </div>
-      <div className=" relative z-20  " >
+      <div className="relative z-10" >
         <h2 className="font-anek max-w-[832px] mx-auto font-semibold text-light-white text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl !leading-[120%]">
           Discover how Stratman
           <span className="font-light"> AI can supercharge </span>

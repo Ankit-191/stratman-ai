@@ -8,7 +8,7 @@ import { CopilotList } from "../common/Helper";
 const Copilot = () => {
   const [activeTab, setActiveTab] = useState(0);
   return (
-    <div className="max-w-[1164px] mx-auto px-3">
+    <div className="max-w-[1164px] mx-auto px-3 relative z-10">
       <div className="flex flex-wrap justify-center lg:justify-between items-center pb-[50px] sm:pb-[80px] xl:pb-[140px]">
         <div className="w-full md:w-9/12 lg:w-6/12 text-center lg:text-start">
           <div className="bg-light-blue rounded-[14px] sm:px-[30px] p-4 sm:py-[27px] inline-block">
