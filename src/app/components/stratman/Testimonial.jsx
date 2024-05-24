@@ -15,7 +15,7 @@ const Testimonial = () => {
   return (
 
     <div
-      className="bg-box-image bg-repeat bg-cover bg-center bg-dark-black mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] pt-12 lg:pt-[100px] pb-[100px] lg:pb-[150px] xl:pb-[100px] relative overflow-hidden"
+      className="bg-box-image bg-repeat bg-cover bg-center bg-dark-black mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[32px] xl:rounded-[40px] pt-12 lg:pt-[100px] pb-[100px] lg:pb-[150px] xl:pb-[100px] relative overflow-hidden"
       id="testimonials"
     >
       <div className="absolute top-0 w-full h-full z-10">

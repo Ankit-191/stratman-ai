@@ -6,7 +6,7 @@ import Link from "next/link";
 import ParticlesFive from "../common/ParticlesFive";
 const NewsInsights = () => {
   return (
-    <div className="relative bg-box-image bg-repeat bg-cover bg-center bg-dark-black mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[40px] py-[50px] sm:py-[80px] lg:py-[100px] overflow-hidden" id="news">
+    <div className="relative bg-box-image bg-repeat bg-cover bg-center bg-dark-black mx-3 sm:mx-5 rounded-[16px] sm:rounded-[25px] lg:rounded-[32px] xl:rounded-[40px] py-[50px] sm:py-[80px] lg:py-[100px] overflow-hidden" id="news">
       <div className="absolute top-0 w-full h-full z-10">
         <ParticlesFive />
       </div>

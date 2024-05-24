@@ -3,7 +3,7 @@ import CustomButton from "../common/startman/custom-ui/CustomButton";
 import ParticlesFive from "../common/ParticlesFive"
 const Discover = () => {
   return (
-    <div className="relative bg-dark-black rounded-[16px] mx-3 sm:mx-5 xl:px-0   py-[50px] sm:py-[80px] lg:py-[100px]  sm:rounded-[25px] lg:rounded-[40px] bg-box-image  bg-repeat bg-cover bg-center px-3 overflow-hidden">
+    <div className="relative bg-dark-black rounded-[16px] mx-3 sm:mx-5 xl:px-0   py-[50px] sm:py-[80px] lg:py-[100px]  sm:rounded-[25px] lg:rounded-[32px] xl:rounded-[40px] bg-box-image  bg-repeat bg-cover bg-center px-3 overflow-hidden">
       <div className="absolute top-0 w-full h-full z-10">
         <ParticlesFive />
       </div>
