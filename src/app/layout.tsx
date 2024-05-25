@@ -26,6 +26,10 @@ export default function RootLayout({
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
+        <meta
+          name="keywords"
+          content="Artificial intelligence, Stock market prediction"
+        />
         <meta property="og:title" content={metadata.openGraph.title} />
         <meta property="og:image" content={metadata.openGraph.images} />
       </Head>
