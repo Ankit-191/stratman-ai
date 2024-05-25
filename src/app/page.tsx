@@ -14,6 +14,8 @@ import Footer from "../app/components/common/Footer";
 import BackToTop from "../app/components/common/BackToTop";
 import Image from "next/image";
 import line from "../../public/stratman/images/svg/page-line.svg";
+import { Suspense } from "react";
+
 export default function Home() {
   return (
     <>
@@ -32,7 +34,9 @@ export default function Home() {
           <ChartAnalysis />
           <Dashboard />
           <SearchMode />
-          <Copilot />
+          <Suspense>
+            <Copilot />
+          </Suspense>
           <Testimonial />
           <Pricing />
           <NewsInsights />
