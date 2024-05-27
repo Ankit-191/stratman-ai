@@ -1,12 +1,16 @@
 "use client";
-import { useState } from "react";
 import Image from "next/image";
 import Content from "../common/startman/reusable-content/Content";
 import copilot from "/public/stratman/images/png/copilot.png";
 import searchIcon from "/public/stratman/images/svg/search-icon.svg";
 import { CopilotList } from "../common/Helper";
+import { useSearchParams } from "next/navigation";
+import Link from "next/link";
+
 const Copilot = () => {
-  const [activeTab, setActiveTab] = useState(0);
+  const searchParams = useSearchParams();
+  const queryValue = searchParams.get("mode");
+  
   return (
     <div className="max-w-[1164px] mx-auto px-3 relative z-10">
       <div className="flex flex-wrap justify-center lg:justify-between items-center pb-[50px] sm:pb-[80px] xl:pb-[140px]">
@@ -15,19 +19,22 @@ const Copilot = () => {
             <Image src={copilot} alt="trend-data" width={452} height={185} className="min-h-[108px]"/>
             <div className="flex justify-between flex-wrap md:px-10 mt-2 md:mt-6">
               {CopilotList.map((obj, index) => {
-                const isActive = index === activeTab;
                 return (
-                  <button
-                    className={`text-xs max-[410px]:w-5/12 mt-2 rounded-full py-[7px] px-4 transition-all duration-300 ease-in-out ${
-                      isActive
-                        ? "text-light-white bg-dark-black"
-                        : "text-black hover:text-light-white hover:bg-dark-black"
-                    }`}
-                    key={index}
-                    onClick={() => setActiveTab(index)}
-                  >
-                    {obj.title}
-                  </button>
+                  <Link
+                  href={`?mode=${obj.title.toLowerCase()}`}
+                  scroll={false}
+                  className={`text-xs max-[410px]:w-5/12 mt-2 rounded-full py-[7px] px-4 transition-all duration-300 ease-in-out ${
+                      queryValue ===
+                          obj.title.toLowerCase() 
+                          || (!queryValue && obj.title.toLowerCase() === "fundamentals")
+                          ? "text-light-white bg-dark-black"
+                          : "text-black hover:text-light-white hover:bg-dark-black"
+                  } 
+`}
+                  key={index}
+              >
+                  {obj.title}
+              </Link>
                 );
               })}
             </div>
